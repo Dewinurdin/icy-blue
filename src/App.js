@@ -8,12 +8,14 @@ import './App.css';
 
 function App() {
   return (
-    <Container className="App" fluid>
-      <Container className="navigation-container" fluid>
+    // <Container className="App" fluid>
+      <header className="navigation-container" fluid>
+      <Container>
         <NavBarTop />
         <NavBarMenu />
-      </Container>
-    </Container>
+        </Container>
+      </header>
+    // </Container>
   );
 }
 
