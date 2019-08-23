@@ -3,18 +3,38 @@
   padding-right: 0;
   padding-left: 0;
 }
+.navigation-container {
+  background-color: rgb(159, 198, 243);
+  padding: .75rem;
+}
+.nav-link {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 800;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-family: "Raleway";
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 576px) {
+  /* NAVIGATION */
+  .navigation-container {
+    padding: .5rem;
+  }
+  .navbar {
+    padding-bottom: 0;
+  }
+  
+  .logo {
+    width: 14rem;
+    height: 4rem;
+  }
+  .nav-link {
+    font-size: .75rem;
+    padding-right: .6rem;
+    padding-left: .6rem;
+    font-weight: 800;
+  }
 }
+
