@@ -9,8 +9,8 @@ import './App.css';
 
 function App() {
   return (
-    <Container className="Site" fluid>
-      <header className="navigation-container" fluid>
+    <Container className="Site" fluid >
+      <header className="fixed-position" id="header">
       <Container>
         <NavBarTop />
         <NavBarMenu />

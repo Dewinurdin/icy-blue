@@ -1,59 +1,110 @@
-.Site {
-  text-align: center;
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: 0;
-  margin-left: 0;
+#blue {
 }
-.navigation-container {
-  /* background-color: rgb(159, 198, 243); */
-  position: fixed;
-  padding: .75rem;
+.Site {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;  
+}
+#header {
   left: 0;
   right: 0;
   top: 0;
+  transition: background .2s linear;
   z-index: 9999;
+}
+#header.fixed-position {
+  background: rgba(54,55,63,.85);
+  position: fixed;
 }
 .intro {
   background: url("./assets/varieties.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
   opacity: 1;
   top: 0;
-  padding: 0;
-  margin: 0;
-  position: relative;
-  text-align: center;
-  transition: background .2s linear;
+  /* padding: 0; */
+  /* margin: 0; */
+  /* text-align: center; */
   height: 1050px;
-  width: 100%;
-   background-size: cover;
-
+  width: auto;
+  background-size: cover;
 }
+/* BOOTSRAP */
 .nav-link {
   color: #efefef;
   font-size: 1rem;
   font-weight: 800;
   letter-spacing: .5px;
 }
+.col-12, .col-6 {
+  padding: 0;
+}
+.card  {
+  padding: .5rem;
+  text-align: center;
+}
+.card-body {
+  padding-bottom: .2rem;
+  padding-top: .2rem;
+  
+}
+/* COMPONENTS */
 .title {
-  font-family: "Pacifico";
   font-size: 2.5rem;
-  margin-right: auto;
-  margin-left: auto;
   padding-bottom: 0;
 }
 .price {
-  font-family: "Pacifico";
   font-size: 2.2rem;
   padding-top: 0;
 }
+.menu-title, .menu-description {
+  font-weight: 800;
+}
+.menu-title {
+  font-size: 1.25rem;
+}
+.menu-description {
+  font-size: 1rem;
+  padding-bottom: 0.1rem;
+  padding-top: 0.1rem;  
+}
+#icecreamrolls {
+  padding: 0;
+  margin: 0;
+}
+
+/* COMMON CSS */
+  /* FONTS */
+.pacifico {
+  font-family: "Pacifico";
+}
+.quicksand {
+  font-family: "Quicksand";
+}
+.montserrat {
+  font-family: "Montserrat";
+}
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
 
 @media (max-width: 576px) {
-  /* NAVIGATION */
+  .Site {
+  }
+    /* COMPONENTS */
+      /* HEADER */
   .navigation-container {
     padding: .5rem;
   }
+  .intro {
+    height: 300px;
+    width: 100%;
+  }
+  #header {
+  }
+  #header.fixed-position {
+  }
+  
   .navbar {
     padding-bottom: 0;
   }
@@ -62,28 +113,41 @@
     width: 14rem;
     height: 4rem;
   }
+  .section {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .category {
+    background-color: #9fc6f3;
+    color: #fff;
+  }
+  .title {
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-bottom: 0;
+  }
+  .price {
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-top: .25rem;
+  }
+  .menu-title {
+    font-size: .8rem;
+    font-weight: 900;
+  }
+  .menu-description {
+    font-size: .65rem;
+    font-weight: 800;
+    padding-top: 0;
+  }
+  
+
+  /* BOOTSTRAP */
   .nav-link {
     font-size: .65rem;
     padding-right: .6rem;
     padding-left: .6rem;
     font-weight: 800;
-  }
-  .section {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .card-body {
-    padding: .5rem;
-  }
-  .category {
-    background-color: red;
-  }
-  .title {
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  .price {
-    font-size: 1rem;
   }
   
 }
