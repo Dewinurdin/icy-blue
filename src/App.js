@@ -3,19 +3,22 @@ import Container from 'react-bootstrap/Container';
 
 import NavBarTop from './components/NavBarTop';
 import NavBarMenu from './components/NavBarMenu';
+import IceMenu from './pages/IceMenu';
 
 import './App.css';
 
 function App() {
   return (
-    // <Container className="App" fluid>
+    <Container className="Site" fluid>
       <header className="navigation-container" fluid>
       <Container>
         <NavBarTop />
         <NavBarMenu />
-        </Container>
+      </Container>
       </header>
-    // </Container>
+      <Container fluid className="intro"></Container>
+        <IceMenu />
+    </Container>
   );
 }
 
