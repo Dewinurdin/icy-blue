@@ -61,19 +61,71 @@ const IceMenu = () => (
 
           </Card>
         </Col>
+        <Col xs={12}> 
+          <div className="menu-title montserrat center">TOPPINGS</div>
+        </Col>
 
         <Col xs={6}>
-          <Card>
-          <Card.Body className="menu-title montserrat center">Strawbella</Card.Body>
-            <Card.Body className="menu-description montserrat center">Strawberry, Graham Cracker & Nutella</Card.Body>
-          </Card>
+          <Card.Body className="menu-title montserrat center">CEREALS</Card.Body>
+          <Card.Body className="menu-description montserrat center">Cinnamon Toast Crunch</Card.Body>
+          <Card.Body className="menu-description montserrat center">Fruity Pebbles</Card.Body>
+        </Col>
+
+        <Col xs={6}>
+          <Card.Body className="menu-title montserrat center">CANDIES</Card.Body>
+          <Card.Body className="menu-description montserrat center">Marshmallow</Card.Body>
+          <Card.Body className="menu-description montserrat center">Gummy Bear</Card.Body>
+          <Card.Body className="menu-description montserrat center">Sprinkles</Card.Body>
+          <Card.Body className="menu-description montserrat center">Skittles</Card.Body>
+          <Card.Body className="menu-description montserrat center">Coconut Flakes</Card.Body>
+          <Card.Body className="menu-description montserrat center">Sour Patch Kids</Card.Body>
+
         </Col>
         <Col xs={6}>
-          <Card>
-          <Card.Body className="menu-title montserrat center">Strawbella</Card.Body>
-            <Card.Body className="menu-description montserrat center">Strawberry, Graham Cracker & Nutella</Card.Body>
-          </Card>
+          <Card.Body className="menu-title montserrat center">COOKIES</Card.Body>
+          <Card.Body className="menu-description montserrat center">Graham Crackers</Card.Body>
+          <Card.Body className="menu-description montserrat center">Pretzel Stix</Card.Body>
+          <Card.Body className="menu-description montserrat center">Wafer Rolls</Card.Body>
+          <Card.Body className="menu-description montserrat center">Nilla Wafers</Card.Body>
         </Col>
+        <Col xs={6}>
+          <Card.Body className="menu-title montserrat center">SYRUPS</Card.Body>
+          <Card.Body className="menu-description montserrat center">Condensed Milk</Card.Body>
+          <Card.Body className="menu-description montserrat center">Caramel Sauce</Card.Body>
+          <Card.Body className="menu-description montserrat center">Chocolate Sauce</Card.Body>
+          <Card.Body className="menu-description montserrat center">Strawberry Sauce</Card.Body>
+        </Col>
+
+
+        <Col xs={6}>
+          <Card.Body className="menu-title montserrat center">CHOCOLATE GOODIES</Card.Body>
+          <Card.Body className="menu-description montserrat center">Brownies</Card.Body>
+          <Card.Body className="menu-description montserrat center">Crushed Reeses</Card.Body>
+          <Card.Body className="menu-description montserrat center">Crushed Butterfingers</Card.Body>
+          <Card.Body className="menu-description montserrat center">Chocolate Pocky Stick</Card.Body>
+          <Card.Body className="menu-description montserrat center">Oreo </Card.Body>
+          <Card.Body className="menu-description montserrat center">Mint Oreo </Card.Body>
+          <Card.Body className="menu-description montserrat center">Kit Kat </Card.Body>
+          <Card.Body className="menu-description montserrat center">Chocolate Chips </Card.Body>
+          <Card.Body className="menu-description montserrat center">M&M's </Card.Body>
+          <Card.Body className="menu-description montserrat center">Cookie Dough </Card.Body>
+          <Card.Body className="menu-description montserrat center">Crushed Peanuts </Card.Body>
+          <Card.Body className="menu-description montserrat center">Pecans</Card.Body>
+        </Col>
+        <Col xs={6}>
+          <Card.Body className="menu-title montserrat center">FRUITS</Card.Body>
+            <Card.Body className="menu-description montserrat center">Cherry</Card.Body>
+            <Card.Body className="menu-description montserrat center">Blueberry</Card.Body>
+            <Card.Body className="menu-description montserrat center">Strawberry</Card.Body>
+            <Card.Body className="menu-description montserrat center">Mango</Card.Body>
+            <Card.Body className="menu-description montserrat center">Banana</Card.Body>
+            <Card.Body className="menu-description montserrat center">Lychee</Card.Body>
+            <Card.Body className="menu-description montserrat center">Pineapple</Card.Body>
+            <Card.Body className="menu-description montserrat center">Fruit Bubble</Card.Body>
+        </Col>
+
+
+
 
       </Row>
   </Card>
