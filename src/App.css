@@ -14,6 +14,7 @@
 }
 #header.fixed-position {
   background: rgba(54,55,63,.85);
+  opacity: .9;
   position: fixed;
 }
 .intro {
@@ -35,12 +36,17 @@
   font-weight: 800;
   letter-spacing: .5px;
 }
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
 .col-12, .col-6 {
   padding: 0;
 }
 .card  {
   padding: .5rem;
-  text-align: center;
+  border-radius: 0rem;
+  border: 0px solid rgba(0,0,0,.125);
 }
 .card-body {
   padding-bottom: .2rem;
@@ -56,16 +62,33 @@
   font-size: 2.2rem;
   padding-top: 0;
 }
-.menu-title, .menu-description {
+.menu-title {
+  font-size: 1.35rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: 1;
+  padding-top: .35rem;
+  padding-bottom: .25rem;
+
+}
+.menu-subtitle {
+  font-size: .8rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.menu-instructions {
+  font-size: 1rem;
+  padding-bottom: 0.1rem;
+  padding-top: 0.1rem;  
   font-weight: 800;
 }
-.menu-title {
-  font-size: 1.25rem;
-}
+
 .menu-description {
   font-size: 1rem;
   padding-bottom: 0.1rem;
   padding-top: 0.1rem;  
+  font-weight: 800;
+  text-align: center;
 }
 #icecreamrolls {
   padding: 0;
@@ -87,6 +110,28 @@
   margin-right: auto;
   margin-left: auto;
 }
+.hr {
+  border-top: 1px solid #e4e3de;
+  margin: 15px 0;
+  position: relative;
+  width: 50%;
+  clear: both;
+  display: inline-block;
+  text-align: center;
+}
+.purple {
+  color: #404393;
+}
+.choc {
+  color: #9F4150;
+}
+.red {
+  color: red;
+}
+.silver {
+  color: #9e9e9e;
+}
+
 
 @media (max-width: 576px) {
   .Site {
@@ -125,21 +170,41 @@
     font-size: 1.25rem;
     font-weight: 400;
     padding-bottom: 0;
+    text-align: center;
   }
   .price {
     font-size: 1.25rem;
     font-weight: 300;
     padding-top: .25rem;
+    text-align: center;
   }
   .menu-title {
     font-size: .8rem;
-    font-weight: 900;
+    font-weight: 500;
+    padding-top: .35rem;
+    padding-bottom: .25rem;
   }
+  .menu-instructions {
+    font-size: .65rem;
+    padding-bottom: 0.1rem;
+    padding-top: 0rem;  
+    text-align: center;
+  }  
   .menu-description {
     font-size: .65rem;
-    font-weight: 800;
     padding-top: 0;
   }
+  .menu-item {
+    font-size: .65rem;
+    padding-top: 0;
+  }
+
+  /* COMMON */
+
+  .hr {
+    margin: 11px 0;
+  }  
+
   
 
   /* BOOTSTRAP */
