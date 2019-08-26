@@ -31,22 +31,13 @@
   min-height: 720px; 
   margin-bottom: 0;
 } 
-#map {
+.embed-responsive {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 180px;
+  height: 500px;
   width: 100%;
-  margin-top: .3rem;
-  margin-bottom: 4.5rem;
 }
-.embed-responsive  {
-  height: 200px;
-  width: 100%;
-  /* margin-top: .3rem; */
-  /* margin-bottom: 4.5rem; */
-}   
-
   
 .footer {
   justify-content: center;    
@@ -57,23 +48,22 @@
   background-color: rgb(159, 198, 243);
   color: white;
   text-align: center;
-  font-family: Raleway;
   padding: .5rem;
   font-family: "Montserrat";
 }
 .address, .phone {
   font-size: 1rem;
   letter-spacing: 1px;
-  font-weight: 600;
-  margin-bottom: 0;
+  font-weight: 700;
+  margin-top: 1rem;
   padding: .25rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 .copyright, .developer {
   color: #fff;
   font-size: .75rem;
-  margin-top: 10px;
-  padding: .25rem;
+  /* margin-top: 10px; */
+  /* padding: .25rem; */
 }
 .divider {
   margin-right: 10px;
@@ -93,8 +83,8 @@
   letter-spacing: .5px;
 }
 .row {
-  margin-right: 0;
-  margin-left: 0;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .col-12 {
   padding: 0;
@@ -148,7 +138,7 @@
   font-weight: 500;
   line-height: 1;
   padding-top: .35rem;
-  padding-bottom: .25rem;
+  padding-bottom: .35rem;
 }
 .menu-subtitle {
   font-size: 1.5rem;
@@ -168,10 +158,22 @@
 
 .menu-description {
   font-size: 1rem;
-  padding-bottom: 0.1rem;
+  margin-bottom: 0.35rem;
   padding-top: 0.1rem;  
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+}
+
+.signature {
+  font-size: 2rem;
+  color: #4b9e8e;
+  font-family: 'Lobster', cursive;
+  padding: 1rem;
+  text-decoration: underline;
+}
+.space {
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 .notations {
@@ -186,6 +188,11 @@
   font-size: 2.2rem;
   padding-top: 0;
   letter-spacing: 1px;
+}
+.pick {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #4b9e8e;
 }
 
 /* COMMON CSS */
@@ -232,7 +239,14 @@
 .silver {
   color: #9e9e9e;
 }
-  /* SHADOW */
+  /* BOLD */
+  .bold {
+    font-weight: bold;
+    color: #fff;
+  }
+  .bolder {
+    font-weight: bolder;
+  }
 
 .hr:before, hr:before {
     border-top: 1px solid #fff;
@@ -330,7 +344,7 @@
   }
   .menu-subtitle {
     font-size: .8rem;
-    letter-spacing: 1px;
+    letter-spacing: .4px;
     padding-top: 0rem;
     padding-bottom: .5rem;
   }  
@@ -342,7 +356,7 @@
     letter-spacing: 0.3px;
   }  
   .menu-description {
-    font-size: .65rem;
+    font-size: .5rem;
     padding-top: 0;
   }
   .menu-item {
@@ -352,22 +366,35 @@
   .notations {
     color: #C3596D;
     font-size: .5rem;
-    letter-spacing: .5px;
+    letter-spacing: .3px;
     font-weight: 800;
     text-align: center;
     padding: .5rem;
+    margin-bottom: 1.5rem;
   }  
   .footer {
-    height: 4rem;
-    padding: .5rem;
+    height: 5rem;
+    padding: 0rem;
   }
 
-  .address, .phone {
-    font-size: .55rem;
+  .address {
+    font-size: .6rem;
+    letter-spacing: 0.3px;
+    font-weight: 800;
+    margin-bottom: 0;
+    padding: 0rem;
+    color:#ffffff;
+  }
+  .phone {
+    font-size: .6rem;
+    letter-spacing: 0.3px;
+    color:#ffffff;
+    font-weight: 800;
     letter-spacing: 0;
     margin-bottom: 0;
     padding: 0rem;
   }
+
   .copyright, .developer {
     color: #fff;
     font-size: 7px;
@@ -378,15 +405,22 @@
     margin-left: 1px;
     font-size: 9px;
   }
+  .pick {
+    font-size: .6rem;
+    font-weight: 800;
+    color: #4b9e8e;
+  }
+  
 
   /* GOOGLE MAP */
-  .embed-responsive  {
-    height: 200px;
+  .embed-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
     width: 100%;
-    /* margin-top: .3rem; */
-    /* margin-bottom: 4.5rem; */
-  }   
-
+  }
+  
   /* BOOTSTRAP */
   .navbar {
     padding-bottom: 0;

@@ -7,7 +7,7 @@ const d = new Date();
 const getYear = d.getFullYear();
 
 const Footer = (props) => (
-      <Navbar className="footer" id="footer" fixed="bottom">
+      <Navbar className="footer" id="footer" fixed="bottom" fluid>
         <Row>
           <Col xs={12} md={12}>
             <span className="address">3141 E Broad Street</span>
@@ -16,7 +16,8 @@ const Footer = (props) => (
             <span className="divider"> | </span>
             <span className="address">Mansfield, TX 76063</span>
             <span className="divider"> | </span>
-            <span className="phone">Call us: 817-888-8888</span>
+            <br/>
+            <span className="phone">Contact 817-888-8888</span>
             <br />
             <span className="copyright">© Copyright {getYear} Icy Blue</span>
             <span className="divider"> | </span>
