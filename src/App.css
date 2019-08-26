@@ -384,23 +384,13 @@
     height: 5rem;
     padding: 0rem;
   }
-
-  .address {
-    font-size: .6rem;
+  .address, .phone {
+    font-size: .75rem;
     letter-spacing: 0.3px;
     font-weight: 800;
     margin-bottom: 0;
     padding: 0rem;
     color:#ffffff;
-  }
-  .phone {
-    font-size: .6rem;
-    letter-spacing: 0.3px;
-    color:#ffffff;
-    font-weight: 800;
-    letter-spacing: 0;
-    margin-bottom: 0;
-    padding: 0rem;
   }
 
   .copyright, .developer {
