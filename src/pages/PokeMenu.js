@@ -5,19 +5,17 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
 const IceMenu = () => (
-  <Card id="poke_bowl">
-    <Card className="category">
+  <Container id="poke_bowl">
+    <Container className="category">
       <Card.Body className="title satisfy">Poke Bowl</Card.Body>
-    </Card>
+    </Container>
       <Row>
         <Col xs={12}>
-          <Card>
-            <Card.Body className="step helvetica center">REGULAR</Card.Body>
-            <Card.Body className="menu-instructions montserrat center">Select 2 protein option (24oz) $10.95</Card.Body>
-            <Card.Body className="step helvetica center">LARGE</Card.Body>
-            <Card.Body className="menu-instructions montserrat center">Select 3 protein option (32oz) $13.50</Card.Body>
-          </Card>
-          <hr className="hr" align="center" width="auto"></hr>
+          <Card.Body className="step helvetica center">REGULAR</Card.Body>
+          <Card.Body className="menu-instructions montserrat center">Select 2 protein option (24oz) $10.95</Card.Body>
+          <Card.Body className="step helvetica center">LARGE</Card.Body>
+          <Card.Body className="menu-instructions montserrat center">Select 3 protein option (32oz) $13.50</Card.Body>
+          <hr className="hr"></hr>
         </Col>
         <Col xs={6}>
           <Card.Body className="menu-title montserrat">BASE (choose up to 2)</Card.Body>
@@ -78,13 +76,12 @@ const IceMenu = () => (
         </Col>
 
         <Col xs={12}> 
-          <hr align="center" width="80%"></hr>
+          <hr className="hr"></hr>
           <div className="menu-subtitle text-center">DRESSING</div>
-          <hr align="center" width="80%"></hr>
         </Col>
 
         <Col xs={12}> 
-          <Card>
+          <Container className="poke">
             <Card.Body className="menu-title center Lobster">Shoyu</Card.Body>
             <Card.Body className="menu-description montserrat">Sesame Soy Sauce with Ginger</Card.Body>
             <Card.Body className="menu-title center Lobster">Ponzu</Card.Body>
@@ -103,15 +100,15 @@ const IceMenu = () => (
             <Card.Body className="menu-description montserrat">Sweet Creamy Mango Puree</Card.Body>
             <Card.Body className="menu-title center Lobster">Eel Sauce</Card.Body>
             <Card.Body className="menu-description montserrat">Thick soy sauce</Card.Body>
-          </Card>
+          </Container>
         </Col> 
 
         <Col xs={12}>
-        <Card.Body className="notations">ADDITIONAL ADD-ONS +$0.50</Card.Body>
+        <Card.Body className="notations">Consuming raw or under cooked meat, fish, shellfish or fresh egg may increase your risk of food borne illness, especially if you have certain medical conditions</Card.Body>
         </Col>
 
       </Row>
-  </Card>
+  </Container>
 );
 
 export default IceMenu;

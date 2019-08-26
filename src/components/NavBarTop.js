@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/icy-blue-logo.jpg';
 
 const NavBarTop = () => (
-    <Navbar className="justify-content-center"  >
+    <Navbar className="justify-content-center" >
       <Navbar.Brand href="#home">
         <img
           alt=""
