@@ -344,7 +344,7 @@
     letter-spacing: 0;
   }
   .menu-subtitle {
-    font-size: .8rem;
+    font-size: 1rem;
     letter-spacing: .4px;
     padding-top: 0rem;
     padding-bottom: .5rem;
@@ -365,13 +365,13 @@
     padding-top: 0;
   }
   .signature {
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding: .5rem;
     letter-spacing: .5px;
   }  
   .notations {
     color: #C3596D;
-    font-size: .5rem;
+    font-size: .75rem;
     letter-spacing: .3px;
     font-weight: 800;
     text-align: center;
