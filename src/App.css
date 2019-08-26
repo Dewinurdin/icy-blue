@@ -405,7 +405,7 @@
 
   .copyright, .developer {
     color: #fff;
-    font-size: 7px;
+    font-size: 10px;
     padding: 5px;
   }
   .divider {
@@ -417,8 +417,6 @@
     font-size: .8rem;
     padding: .4rem;
   }
-  
-
   /* GOOGLE MAP */
   .embed-responsive {
     display: flex;
