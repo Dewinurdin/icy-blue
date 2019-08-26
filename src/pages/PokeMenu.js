@@ -104,7 +104,7 @@ const IceMenu = () => (
 
         <Col xs={12}> 
           <hr className="hr"></hr>
-          <div className="menu-subtitle text-center">SELF SERVED TOPPINGS ON SERVER STATION</div>
+          <div className="menu-subtitle text-center" style={{ fontSize: '.85rem' }}>SELF SERVED TOPPINGS ON SERVER STATION</div>
         </Col>
 
         <Col xs={6}>
@@ -138,7 +138,7 @@ const IceMenu = () => (
             <div className="menu-description montserrat">Your choice of Steam Rice, Brown Rice, Purple Rice or</div>
             <div className="menu-description montserrat">substitute to Fried Rice (+ $2)</div>
             <div className="menu-description montserrat">served with Asparagus, Steamed Sweet corn, Broccoli, Carrot drizzled with Hawaiian barbecue sauce</div>
-            <div className="menu-description montserrat pick">Pick your protein</div>
+            <div className="pick">PICK YOUR PROTEIN</div>
             <Row>
               <Col className="menu-description montserrat" xs={6}>Chicken <span className="space">$9</span></Col>
               <Col className="menu-description montserrat" xs={6}>Steak <span className="space">$12</span></Col>
@@ -146,7 +146,7 @@ const IceMenu = () => (
               <Col className="menu-description montserrat" xs={6}>Salmon <span className="space">$11</span></Col>
             </Row>
           
-            <div className="menu-description montserrat pick">Make it a Combo</div>
+            <div className="pick">MAKE IT A COMBO</div>
             <Row>
               <Col className="menu-description montserrat" xs={6}>Combination of 2 <span className="space">$16</span></Col>
               <Col className="menu-description montserrat" xs={6}>Combination of 3 <span className="space">$20</span></Col>

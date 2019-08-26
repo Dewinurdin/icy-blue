@@ -192,8 +192,10 @@
 }
 .pick {
   font-size: 1.25rem;
-  font-weight: 900;
+  font-weight: 800;
   color: #4b9e8e;
+  font-family: "Quicksand";
+
 }
 
 /* COMMON CSS */
@@ -344,30 +346,30 @@
     letter-spacing: 0;
   }
   .menu-subtitle {
-    font-size: 1rem;
+    font-size: 1.25rem;
     letter-spacing: .4px;
     padding-top: 0rem;
     padding-bottom: .5rem;
   }  
   .menu-instructions {
-    font-size: .6rem;
+    font-size: .8rem;
     padding-bottom: 0.1rem;
     padding-top: 0rem;  
     text-align: center;    
-    letter-spacing: 0.3px;
+    letter-spacing: 0.5px;
   }  
   .menu-description {
     font-size: .75rem;
     padding-top: 0;
   }
   .menu-item {
-    font-size: .65rem;
+    font-size: .75rem;
     padding-top: 0;
   }
   .signature {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     padding: .5rem;
-    letter-spacing: .5px;
+    letter-spacing: 1px;
   }  
   .notations {
     color: #C3596D;
@@ -376,7 +378,7 @@
     font-weight: 800;
     text-align: center;
     padding: .5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }  
   .footer {
     height: 5rem;
@@ -412,9 +414,8 @@
     font-size: 9px;
   }
   .pick {
-    font-size: .6rem;
-    font-weight: 800;
-    color: #4b9e8e;
+    font-size: .8rem;
+    padding: .4rem;
   }
   
 
