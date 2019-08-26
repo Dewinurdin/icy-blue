@@ -7,7 +7,7 @@ const NavBarMenu = () => (
     <Nav className="justify-content-between">
       <Nav.Link href="#icecreamrolls">ROLLED ICE</Nav.Link>
       <Nav.Link href="#poke_bowl">POKE BOWL</Nav.Link>
-      <Nav.Link href="#location">LOCATION</Nav.Link>
+      <Nav.Link href="#map">LOCATION</Nav.Link>
     </Nav>
     </Container>
 
