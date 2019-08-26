@@ -57,10 +57,24 @@
 .title {
   font-size: 2.5rem;
   padding-bottom: 0;
+  padding-top: .5rem;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 800;
+
 }
 .price {
   font-size: 2.2rem;
   padding-top: 0;
+  letter-spacing: 1px;
+}
+.step {
+  font-size: 1.35rem;
+  letter-spacing: 1px;
+  font-weight: 900;
+  line-height: 1;
+  padding-top: .35rem;
+  padding-bottom: .25rem;
 }
 .menu-title {
   font-size: 1.35rem;
@@ -69,30 +83,37 @@
   line-height: 1;
   padding-top: .35rem;
   padding-bottom: .25rem;
-
 }
 .menu-subtitle {
   font-size: .8rem;
   letter-spacing: 1px;
-  font-weight: 700;
+  font-weight: 800;
+  color: #c3596d;
 }
 .menu-instructions {
   font-size: 1rem;
   padding-bottom: 0.1rem;
   padding-top: 0.1rem;  
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .menu-description {
   font-size: 1rem;
   padding-bottom: 0.1rem;
   padding-top: 0.1rem;  
-  font-weight: 800;
   text-align: center;
 }
 #icecreamrolls {
   padding: 0;
   margin: 0;
+}
+.notations {
+  color: #C3596D;
+  font-size: .8rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  text-align: center;
+  padding: .5rem;
 }
 
 /* COMMON CSS */
@@ -100,30 +121,36 @@
 .pacifico {
   font-family: "Pacifico";
 }
+.bitter {
+  font-family: 'Bitter', serif;
+}
+.Lobster {
+  font-family: 'Lobster', cursive;
+}
 .quicksand {
   font-family: "Quicksand";
 }
 .montserrat {
   font-family: "Montserrat";
 }
+.satisfy {
+  font-family: 'Satisfy', cursive;
+}
+.helvetica {
+  font-family: 'Helvetica Neue';
+}
 .center {
   margin-right: auto;
   margin-left: auto;
-}
-.hr {
-  border-top: 1px solid #e4e3de;
-  margin: 15px 0;
-  position: relative;
-  width: 50%;
-  clear: both;
-  display: inline-block;
-  text-align: center;
 }
 .purple {
   color: #404393;
 }
 .choc {
-  color: #9F4150;
+  color: #A88134;
+}
+.pink {
+  color: #C3596D;
 }
 .red {
   color: red;
@@ -168,31 +195,46 @@
   }
   .title {
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 900;
     padding-bottom: 0;
     text-align: center;
+    font-family: 'Lobster';
+    /* color: #673ab7; */
+    /* opacity: .8; */
   }
   .price {
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 800;
     padding-top: .25rem;
     text-align: center;
+    /* color: #673ab7; */
   }
+  .step {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color: #C3596D;
+  }
+  
   .menu-title {
     font-size: .8rem;
     font-weight: 500;
     padding-top: .35rem;
     padding-bottom: .25rem;
+    color: #479B8B;
+    font-family: 'Lobster';
   }
   .menu-instructions {
-    font-size: .65rem;
+    font-size: .6rem;
     padding-bottom: 0.1rem;
     padding-top: 0rem;  
-    text-align: center;
+    text-align: center;    
   }  
   .menu-description {
     font-size: .65rem;
     padding-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Bitter', serif; */
   }
   .menu-item {
     font-size: .65rem;
@@ -200,11 +242,6 @@
   }
 
   /* COMMON */
-
-  .hr {
-    margin: 11px 0;
-  }  
-
   
 
   /* BOOTSTRAP */
