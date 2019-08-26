@@ -338,7 +338,7 @@
     padding-bottom: 0.25rem;
   }    
   .menu-title {
-    font-size: .61rem;
+    font-size: 1rem;
     color: #2196f3;
     font-family: 'Lobster';
     letter-spacing: 0;
@@ -357,7 +357,7 @@
     letter-spacing: 0.3px;
   }  
   .menu-description {
-    font-size: .5rem;
+    font-size: .75rem;
     padding-top: 0;
   }
   .menu-item {
