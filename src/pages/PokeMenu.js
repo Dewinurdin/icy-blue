@@ -104,7 +104,7 @@ const IceMenu = () => (
 
         <Col xs={12}> 
           <hr className="hr"></hr>
-          <div className="menu-subtitle text-center" style={{ fontSize: '.85rem' }}>SELF SERVED TOPPINGS ON SERVER STATION</div>
+          <div className="menu-subtitle text-center">SELF SERVED TOPPINGS ON SERVER STATION</div>
         </Col>
 
         <Col xs={6}>
