@@ -1,9 +1,20 @@
 #blue {
+  background: url("./assets/snowflakes-background.png");
+  background-repeat: no-repeat;
+  opacity: 1;
+  top: 0;
+  height: 1050px;
+  width: auto;
+  background-size: cover;
 }
+
 .Site {
   box-sizing: border-box;
   padding: 0;
   margin: 0;  
+}
+#icecreamrolls, #poke_bowl {
+  background-color: #E3F2FD;
 }
 #header {
   left: 0;
@@ -12,9 +23,7 @@
   transition: background .2s linear;
   z-index: 9999;
 }
-#header.fixed-position {
-  background: rgba(54,55,63,.85);
-  opacity: .9;
+#header {
   position: fixed;
 }
 .intro {
@@ -22,31 +31,39 @@
   background-repeat: no-repeat;
   opacity: 1;
   top: 0;
-  /* padding: 0; */
-  /* margin: 0; */
-  /* text-align: center; */
   height: 1050px;
   width: auto;
   background-size: cover;
 }
 /* BOOTSRAP */
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .nav-link {
-  color: #efefef;
+  color: #2853f6;
+  font-family: 'Helvetica Neue';
   font-size: 1rem;
   font-weight: 800;
   letter-spacing: .5px;
+  padding-top: 3rem;
 }
 .row {
   margin-right: 0;
   margin-left: 0;
 }
-.col-12, .col-6 {
+.col-12 {
   padding: 0;
 }
+.col-6 {
+  padding-bottom: .25rem;
+}
 .card  {
-  padding: .5rem;
+  padding: 0rem;
+  margin: 0;
   border-radius: 0rem;
-  border: 0px solid rgba(0,0,0,.125);
+  border: none;
+  background-color: #e3f2fd;
 }
 .card-body {
   padding-bottom: .2rem;
@@ -54,27 +71,34 @@
   
 }
 /* COMPONENTS */
+.category {
+  background-color: #2853F6;
+  color: #fff; 
+  padding: 1rem;
+}
+
 .title {
   font-size: 2.5rem;
-  padding-bottom: 0;
-  padding-top: .5rem;
   color: #fff;
   letter-spacing: 3px;
   font-weight: 800;
+  text-align: center;
 
 }
 .price {
   font-size: 2.2rem;
-  padding-top: 0;
   letter-spacing: 1px;
+  text-align: center;
 }
 .step {
   font-size: 1.35rem;
   letter-spacing: 1px;
   font-weight: 900;
-  line-height: 1;
-  padding-top: .35rem;
-  padding-bottom: .25rem;
+  color: #673ab7;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+
 }
 .menu-title {
   font-size: 1.35rem;
@@ -95,6 +119,7 @@
   padding-bottom: 0.1rem;
   padding-top: 0.1rem;  
   font-weight: 700;
+  text-align: center;
 }
 
 .menu-description {
@@ -103,21 +128,22 @@
   padding-top: 0.1rem;  
   text-align: center;
 }
-#icecreamrolls {
-  padding: 0;
-  margin: 0;
-}
 .notations {
   color: #C3596D;
-  font-size: .8rem;
-  letter-spacing: 1px;
+  font-size: .5rem;
+  letter-spacing: .5px;
   font-weight: 800;
   text-align: center;
   padding: .5rem;
 }
+.poke_price {
+  font-size: 2.2rem;
+  padding-top: 0;
+  letter-spacing: 1px;
+}
 
 /* COMMON CSS */
-  /* FONTS */
+  /* FONT FAMILY*/
 .pacifico {
   font-family: "Pacifico";
 }
@@ -139,10 +165,12 @@
 .helvetica {
   font-family: 'Helvetica Neue';
 }
+  /* ALIGN */
 .center {
   margin-right: auto;
   margin-left: auto;
 }
+  /* COLOR */
 .purple {
   color: #404393;
 }
@@ -157,6 +185,26 @@
 }
 .silver {
   color: #9e9e9e;
+}
+  /* SHADOW */
+hr {
+  border:none;
+  height: 20px;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 1px double #fff;
+  box-shadow: 0 20px 20px -20px #eeaba1;
+  margin: -50px auto 5px; 
+  padding: .5rem;
+}
+  /* OVERLAY */
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(227, 242, 253, 0.7);
 }
 
 
@@ -190,14 +238,13 @@
     padding-left: 0;
   }
   .category {
-    background-color: #9fc6f3;
-    color: #fff;
+    background-color: #2853F6;
+    color: #fff; 
   }
   .title {
     font-size: 1.25rem;
     font-weight: 900;
     padding-bottom: 0;
-    text-align: center;
     font-family: 'Lobster';
     /* color: #673ab7; */
     /* opacity: .8; */
@@ -206,29 +253,29 @@
     font-size: 1.25rem;
     font-weight: 800;
     padding-top: .25rem;
-    text-align: center;
     /* color: #673ab7; */
   }
-  .step {
-    font-size: 1rem;
+  .poke_price {
+    font-size: .8rem;
+    padding-top: 0;
     letter-spacing: 1px;
-    font-weight: bolder;
-    color: #C3596D;
-  }
+    text-align: center;
+  }  
   
   .menu-title {
-    font-size: .8rem;
+    font-size: .61rem;
     font-weight: 500;
-    padding-top: .35rem;
     padding-bottom: .25rem;
-    color: #479B8B;
+    color: #2196f3;
     font-family: 'Lobster';
+    letter-spacing: 0;
   }
   .menu-instructions {
     font-size: .6rem;
     padding-bottom: 0.1rem;
     padding-top: 0rem;  
     text-align: center;    
+    letter-spacing: 0.3px;
   }  
   .menu-description {
     font-size: .65rem;
@@ -250,7 +297,10 @@
     padding-right: .6rem;
     padding-left: .6rem;
     font-weight: 800;
+    padding-top: 0.5rem;
   }
-  
+  .col-6 {
+    padding-bottom: .25rem;
+  }  
 }
 

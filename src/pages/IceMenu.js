@@ -1,23 +1,22 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const IceMenu = () => (
-  <Card id="icecreamrolls">
-    <Card className="category">
+  <Container id="icecreamrolls">
+    <Container className="category">
       <Card.Body className="title satisfy">Rolled  Ice Cream</Card.Body>
       <Card.Body className="price satisfy">$6.99</Card.Body>
-    </Card>
+    </Container>
       <Row>
         <Col xs={12}>
-          <Card>
             <Card.Body className="step helvetica center">STEP 1</Card.Body>
             <Card.Body className="menu-instructions montserrat center">CHOOSE A FLAVOR LISTED BELOW</Card.Body>
             <Card.Body className="step helvetica center">STEP 2</Card.Body>
             <Card.Body className="menu-instructions montserrat center">CHOOSE 3 TASTY TOPPINGS AFTER YOUR ICE CREAM IS MADE</Card.Body>
-          </Card>
-          <hr className="hr text-center"></hr>
+          <hr align="center" width="80%"></hr>
         </Col>
         <Col xs={12}>
           <Card>
@@ -67,8 +66,8 @@ const IceMenu = () => (
           <hr align="center" width="80%"></hr>
           <div className="menu-subtitle text-center">TOPPINGS</div>
           <hr align="center" width="80%"></hr>
-
         </Col>
+        
         <Col xs={6}>
           <Card.Body className="menu-title montserrat">CHOCOLATE GOODIES</Card.Body>
           <Card.Body className="menu-item montserrat">Brownies</Card.Body>
@@ -134,7 +133,7 @@ const IceMenu = () => (
         </Col>
 
       </Row>
-  </Card>
+  </Container>
 );
 
 export default IceMenu;
