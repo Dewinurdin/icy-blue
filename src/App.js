@@ -20,10 +20,10 @@ function App() {
       </Container>
       <Jumbotron fluid>
       </Jumbotron>
-        <IceMenu />
-        <PokeMenu/>
-        <Map />
-        <Footer />
+      <IceMenu />
+      <PokeMenu/>
+      <Map />
+      <Footer />
     </Container>
   );
 }

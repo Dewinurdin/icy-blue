@@ -7,7 +7,7 @@ const d = new Date();
 const getYear = d.getFullYear();
 
 const Footer = (props) => (
-      <Navbar className="footer" id="footer" fixed="bottom" fluid>
+      <Navbar id="footer" className="footer" fixed="bottom" fluid >
         <Row>
           <Col xs={12} md={12}>
             <span className="address">3141 E Broad Street</span>
@@ -21,7 +21,7 @@ const Footer = (props) => (
             <br />
             <span className="copyright">© Copyright {getYear} Icy Blue</span>
             <span className="divider"> | </span>
-            <span className="developer">Designed & Maintain by <a href=' https://portfolio-dewi.herokuapp.com/' target='_blank'>Dewi Nurdin</a></span>
+            <span className="developer">Designed & Maintain by <a href=' https://portfolio-dewi.herokuapp.com/' className="dn" target='_blank'>Dewi Nurdin</a></span>
           </Col>
         </Row>
       </Navbar>
