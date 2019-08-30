@@ -29,9 +29,9 @@ const IceMenu = () => (
           <div className="menu-item montserrat">Ahi Tuna</div>
           <div className="menu-item montserrat">Scottish Salmon</div>
           <div className="menu-item montserrat">Pepper Tuna</div>
-          <div className="menu-item montserrat">Crabmeat</div>
           <div className="menu-item montserrat">Spicy Tuna</div>
           <div className="menu-item montserrat">Creamy Scallops</div>
+          <div className="menu-item montserrat">Crabmeat</div>
           <div className="menu-item montserrat">Organic Tofu</div>
           <div className="menu-item montserrat">Popcorn Shrimp</div>
         </Col>
@@ -110,7 +110,6 @@ const IceMenu = () => (
         <Col xs={6}>
           <div className="menu-description montserrat">Black Sesame</div>
           <div className="menu-description montserrat">Furikake</div>
-          <div className="menu-description montserrat">Chili Flakes</div>
         </Col>
         <Col xs={6}>
           <div className="menu-description montserrat">Sweet Ginger</div>
@@ -137,13 +136,13 @@ const IceMenu = () => (
             <div className="menu-title center Lobster">Hawaiian Barbecue Bowl</div>
             <div className="menu-description montserrat">Your choice of Steam Rice, Brown Rice, Purple Rice or</div>
             <div className="menu-description montserrat">substitute to Fried Rice (+ $2)</div>
-            <div className="menu-description montserrat">served with Asparagus, Steamed Sweet corn, Broccoli, Carrot drizzled with Hawaiian barbecue sauce</div>
+            <div className="menu-description montserrat">served with Steamed Asparagus, Sweet corn, Broccoli, Carrot drizzled with Hawaiian barbecue sauce</div>
             <div className="pick">PICK YOUR PROTEIN</div>
             <Row>
               <Col className="menu-description montserrat" xs={6}>Chicken <span className="space">$9</span></Col>
               <Col className="menu-description montserrat" xs={6}>Steak <span className="space">$12</span></Col>
               <Col className="menu-description montserrat" xs={6}>Shrimp <span className="space">$10</span></Col>
-              <Col className="menu-description montserrat" xs={6}>Salmon <span className="space">$11</span></Col>
+              <Col className="menu-description montserrat" xs={6}>Salmon <span className="space">$12</span></Col>
             </Row>
           
             <div className="pick">MAKE IT A COMBO</div>
