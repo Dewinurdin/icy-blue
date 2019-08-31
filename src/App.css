@@ -73,12 +73,17 @@
   margin-right: auto;
   margin-left: auto;
 }
+.google_map {
+  height: 300px;
+}
 .embed-responsive {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 300px;
   width: 100%;
+  bottom: 86px;
+  margin-top: 90px;
 }
   
 .footer {
@@ -477,9 +482,11 @@
   }
   /* GOOGLE MAP */
   .embed-responsive {
-    height: 300px;
-    width: 100%;
+    height: 229px;
+    bottom: 0px;
+    margin-top: 0px;
   }
+  
   /* BOOTSTRAP */
   .navbar {
     padding: 0;
