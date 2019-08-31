@@ -6,15 +6,15 @@ class NavBarTop extends Component {
   state = {
     logoOnScrollActiveClass: ''
   }
-  componentDidMount (){
-    window.addEventListener('scroll', () => {
-      let logoOnScrollActiveClass = 'active';
-      if ( window.scrollY === 0 ){
-        logoOnScrollActiveClass = ''
-      }
-      this.setState({ logoOnScrollActiveClass });
-    });
-  }
+  // componentDidMount (){
+  //   window.addEventListener('scroll', () => {
+  //     let logoOnScrollActiveClass = 'active';
+  //     if ( window.scrollY === 0 ){
+  //       logoOnScrollActiveClass = 'normal'
+  //     }
+  //     this.setState({ logoOnScrollActiveClass });
+  //   });
+  // }
   render () {
     return (
       <Navbar className="justify-content-center" >
@@ -22,7 +22,8 @@ class NavBarTop extends Component {
           <img
             alt="Icy Blue Logo"
             src={logo}
-            className={`d-inline-block align-top logo ${this.state.logoOnScrollActiveClass}`}
+            className="d-inline-block align-top logo"
+            // className={`d-inline-block align-top logo ${this.state.logoOnScrollActiveClass}`}
           />      
         </Navbar.Brand>
       </Navbar>

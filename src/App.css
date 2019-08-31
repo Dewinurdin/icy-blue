@@ -40,24 +40,39 @@
 .scroll-active {
   font-size: .9rem;
   letter-spacing: .5px;
+  transition: transform 500ms ease-in;
 }
-.active {
+/* .active {
   width: 18rem;
   height: 5rem;
   transition: transform 500ms ease-in;
-}
+} */
 
-.jumbotron {
+.intro {
+  display: flex;
   background: url("./assets/varieties.jpg");
-  /* background-attachment: fixed; */
+  /* PARALLAX */
+  background-attachment: fixed; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 800px; 
-  margin-bottom: 0;
-  padding: 0rem 0rem;
+  min-height: 890px; 
   width: 100%;
 } 
+.jumbotron {
+  margin-bottom: 0;
+  background-color: white;
+}
+.welcome {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.about {
+  font-family: 'Roboto Condensed', sans-serif;
+  align-self: flex-end;
+  font-size: 1.25rem;
+  margin-right: auto;
+  margin-left: auto;
+}
 .embed-responsive {
   display: flex;
   justify-content: center;
@@ -108,8 +123,9 @@
   margin-right: 15px;
   margin-left: 15px;
 }
-.col-12 {
+.col-3, .col-4, .col-6, .col-12 {
   padding: 0;
+  position: static;
 }
 .ice-menu, .poke  {
   padding: 0rem;
@@ -335,18 +351,27 @@
   .scroll-active {
     font-size: .5rem;
     transition: .7s;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
   }
-  .active {
+  /* .active {
     width: 10.5rem;
     height: 3rem;
     transition: .7s;
-  }
-  .jumbotron {
+  } */
+  .intro {
     min-height: 360px; 
     /* width: 100%; */
   }
+  .jumbotron {
+    padding: 1rem;
+  }
+  .welcome {
+    font-size: 1.5rem;
+  }
+  .about {
+    font-size: 1rem;
+  }  
     
   .section {
     padding-right: 0;

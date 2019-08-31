@@ -19,9 +19,9 @@ class NavBarMenu extends Component {
     return (
       <Container>
         <Nav className="justify-content-between">
-          <Nav.Link className={` ${this.state.activeClass}`} href="#icecreamrolls">ROLLED ICE</Nav.Link>
-          <Nav.Link className={` ${this.state.activeClass}`} href="#poke_bowl">POKE BOWL</Nav.Link>
-          <Nav.Link className={` ${this.state.activeClass}`} href="#map">LOCATION</Nav.Link>
+          <Nav.Link className={`${this.state.activeClass}`} href="#icecreamrolls">ROLLED ICE</Nav.Link>
+          <Nav.Link className={`${this.state.activeClass}`} href="#poke_bowl">POKE BOWL</Nav.Link>
+          <Nav.Link className={`${this.state.activeClass}`} href="#map">LOCATION</Nav.Link>
         </Nav>
       </Container>
       );

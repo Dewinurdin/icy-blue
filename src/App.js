@@ -18,7 +18,19 @@ function App() {
         <NavBarTop />
         <NavBarMenu />
       </Container>
-      <Jumbotron />
+      <Container className="intro" fluid/>
+      <Jumbotron fluid>
+        <Container>
+          <h1 className="welcome">Welcome to Icy Blue</h1>
+          <p className="about">
+            Our Ice Cream begins with premium organic milk and organic cream. 
+            We do not use any gums, thickeners, stabilizers, artificial ingredients, or coloring agents.
+            <br/>
+            <br/>
+            Enjoy!
+          </p>
+        </Container>
+      </Jumbotron>
       <IceMenu />
       <PokeMenu />
       <Map />
