@@ -1,7 +1,7 @@
 #blue {
   background: url("./assets/snowflakes-background.png");
   background-repeat: no-repeat;
-  opacity: 1;
+  /* opacity: 1; */
   top: 0;
   height: auto;
   width: auto;
@@ -13,27 +13,50 @@
   padding: 0;
   margin: 0;  
 }
+.logo {
+  width: 21rem;
+  height: 5rem;
+  padding-top: .25rem;
+}
+
 #icecreamrolls, #poke_bowl {
   background-color: #E3F2FD;
 }
 #header {
   /* background-color: #9fc6f3; */
   position: fixed;
-  top: 0;
-  left: 0;
-  height: auto;
-  box-sizing: border-box;
   background-color: #fff;
-  opacity: 1;
   padding: 1rem;
 }
+/* NAV-LINK  */
+.link {
+  color: #2853f6;
+  font-family: 'Helvetica Neue';
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: .5px;
+}
+/* HEADER ON SCROLL */
+.scroll-active {
+  font-family: 'Helvetica Neue';
+  font-size: .9rem;
+  font-weight: 800;
+  letter-spacing: .5px;
+  transition: .5s;
+}
+.active {
+  width: 18rem;
+  height: 5rem;
+  transition: .7s;
+}
+
 .jumbotron {
   background: url("./assets/varieties.jpg");
   /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 720px; 
+  min-height: 800px; 
   margin-bottom: 0;
   padding: 0rem 0rem;
   width: 100%;
@@ -83,18 +106,6 @@
 .container {
   padding-right: 0px;
   padding-left: 0px;
-}
-.nav-link {
-  color: #2853f6;
-  font-family: 'Helvetica Neue';
-  font-size: 1rem;
-  font-weight: 800;
-  letter-spacing: .5px;
-  transition: .5s;
-}
-.nav-link:hover {
-  color: #c3596d;
-  transition: .4s;
 }
 .row {
   margin-right: 15px;
@@ -305,8 +316,6 @@
 
 
 @media (max-width: 576px) {
-  .Site {
-  }
   #header {
     padding: .5rem;
   }
@@ -315,16 +324,33 @@
   .navigation-container {
     padding: .5rem;
   }
+  .logo {
+    width: 9rem;
+    height: 3rem;
+    padding-top: .25rem;
+  }  
+  .link {
+    font-size: .6rem;
+    font-weight: 800;
+    padding: 0.25rem;
+  }
+  /* HEADER ON SCROLL */
+  .scroll-active {
+    font-size: .5rem;
+    transition: .7s;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .active {
+    width: 10.5rem;
+    height: 3rem;
+    transition: .7s;
+  }
   .jumbotron {
     min-height: 360px; 
     /* width: 100%; */
   }
     
-  .logo {
-    width: 10.5rem;
-    height: 2.75rem;
-    padding-top: .25rem;
-  }
   .section {
     padding-right: 0;
     padding-left: 0;
@@ -435,14 +461,6 @@
   /* BOOTSTRAP */
   .navbar {
     padding: 0;
-  }
-
-  .nav-link {
-    font-size: .65rem;
-    padding-right: .6rem;
-    padding-left: .6rem;
-    font-weight: 800;
-    padding-top: 0.5rem;
   }
   .col-6 {
     padding-bottom: .25rem;

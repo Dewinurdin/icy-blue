@@ -1,19 +1,33 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/icy-blue-logo.jpg';
 
-const NavBarTop = () => (
-    <Navbar className="justify-content-center" >
-      <Navbar.Brand href="#home">
-        <img
-          alt=""
-          src={logo}
-          width="400"
-          height="110"
-          className="d-inline-block align-top logo"
-        />      
-      </Navbar.Brand>
-    </Navbar>
-);
+class NavBarTop extends Component {
+  state = {
+    logoOnScrollActiveClass: ''
+  }
+  componentDidMount (){
+    window.addEventListener('scroll', () => {
+      let logoOnScrollActiveClass = 'active';
+      if ( window.scrollY === 0 ){
+        logoOnScrollActiveClass = ''
+      }
+      this.setState({ logoOnScrollActiveClass });
+    });
+  }
+  render () {
+    return (
+      <Navbar className="justify-content-center" >
+        <Navbar.Brand href="#home">
+          <img
+            alt="Icy Blue Logo"
+            src={logo}
+            className={`d-inline-block align-top logo ${this.state.logoOnScrollActiveClass}`}
+          />      
+        </Navbar.Brand>
+      </Navbar>
+      );
+  }
+};
 
 export default NavBarTop;

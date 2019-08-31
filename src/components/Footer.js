@@ -7,7 +7,7 @@ const d = new Date();
 const getYear = d.getFullYear();
 
 const Footer = (props) => (
-      <Navbar id="footer" className="footer" fixed="bottom" fluid >
+      <Navbar id="footer" className="footer" fixed="bottom" fluid="true" >
         <Row>
           <Col xs={12} md={12}>
             <span className="address">3141 E Broad Street</span>

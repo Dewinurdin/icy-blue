@@ -4,10 +4,11 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 
 import NavBarTop from './components/NavBarTop';
 import NavBarMenu from './components/NavBarMenu';
-import Map from './components/Map';
 import Footer from './components/Footer';
-import IceMenu from './pages/IceMenu';
-import PokeMenu from './pages/PokeMenu';
+// import IceMenu from './pages/IceMenu';
+// import PokeMenu from './pages/PokeMenu';
+// import Map from './components/Map';
+import Content from './pages/Content';
 
 import './App.css';
 
@@ -18,11 +19,8 @@ function App() {
         <NavBarTop />
         <NavBarMenu />
       </Container>
-      <Jumbotron fluid>
-      </Jumbotron>
-      <IceMenu />
-      <PokeMenu/>
-      <Map />
+      <Jumbotron />
+      <Content />
       <Footer />
     </Container>
   );
