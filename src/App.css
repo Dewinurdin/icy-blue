@@ -29,7 +29,7 @@
   padding: 1rem;
 }
 /* NAV-LINK  */
-.link {
+.link, .nav-link {
   color: #2853f6;
   font-family: 'Helvetica Neue';
   font-size: 1rem;
@@ -38,16 +38,13 @@
 }
 /* HEADER ON SCROLL */
 .scroll-active {
-  font-family: 'Helvetica Neue';
   font-size: .9rem;
-  font-weight: 800;
   letter-spacing: .5px;
-  transition: .5s;
 }
 .active {
   width: 18rem;
   height: 5rem;
-  transition: .7s;
+  transition: transform 500ms ease-in;
 }
 
 .jumbotron {
@@ -329,7 +326,7 @@
     height: 3rem;
     padding-top: .25rem;
   }  
-  .link {
+  .link, .nav-link {
     font-size: .6rem;
     font-weight: 800;
     padding: 0.25rem;
