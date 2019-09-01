@@ -19,9 +19,9 @@ const Footer = (props) => (
             <br/>
             <span className="phone">Contact 817-888-8888</span>
             <br />
-            <span className="copyright">© Copyright {getYear} Icy Blue</span>
+            <span className="copyright">&#169; Copyright {getYear} Icy Blue</span>
             <span className="divider"> | </span>
-            <span className="developer">Designed & Maintain by <a href=' https://portfolio-dewi.herokuapp.com/' className="dn" target='_blank'>Dewi Nurdin</a></span>
+            <span className="developer">Designed &amp; Maintain by <a href=' https://portfolio-dewi.herokuapp.com/' className="dn" target='_blank'>Dewi Nurdin</a></span>
           </Col>
         </Row>
       </Navbar>

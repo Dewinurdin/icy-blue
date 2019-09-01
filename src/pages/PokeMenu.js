@@ -36,7 +36,7 @@ const IceMenu = () => (
         </Col>
 
         <Col xs={12}>
-          <div className="menu-title montserrat center">Choose Five Topping</div>
+          <div className="menu-title montserrat center py-3">CHOOSE FIVE TOPPING</div>
         </Col>
 
         <Col xs={6}>
@@ -121,8 +121,10 @@ const IceMenu = () => (
               <Col className="menu-description montserrat" xs={6}>Combination of 2 <span className="space">$16</span></Col>
               <Col className="menu-description montserrat" xs={6}>Combination of 3 <span className="space">$20</span></Col>
             </Row>
-
           </Container>
+        </Col>
+        <Col> 
+          <hr className="hr"></hr>
         </Col>
 
       </Row>
