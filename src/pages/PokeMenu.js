@@ -21,8 +21,8 @@ const IceMenu = () => (
           <div className="menu-item montserrat">Sushi Rice</div>
           <div className="menu-item montserrat">Brown Rice</div>
           <div className="menu-item montserrat">Organic Purple Rice</div>
-          <div className="menu-item montserrat">Organic Kale</div>
-          <div className="menu-item montserrat">Organic Spring Mix</div>
+          <div className="menu-item montserrat">Salad</div>
+          <div className="menu-item montserrat">salad/sushi rice</div>
         </Col>
         <Col xs={6}>
           <div className="menu-title montserrat">PROTEIN</div>
@@ -31,47 +31,37 @@ const IceMenu = () => (
           <div className="menu-item montserrat">Pepper Tuna</div>
           <div className="menu-item montserrat">Spicy Tuna</div>
           <div className="menu-item montserrat">Creamy Scallops</div>
-          <div className="menu-item montserrat">Crabmeat</div>
           <div className="menu-item montserrat">Organic Tofu</div>
           <div className="menu-item montserrat">Popcorn Shrimp</div>
         </Col>
 
+        <Col xs={12}>
+          <div className="menu-title montserrat center">Choose Five Topping</div>
+        </Col>
+
         <Col xs={6}>
-          <div className="menu-title montserrat">MIX-INS</div>
           <div className="menu-item montserrat">Green Onion</div>
           <div className="menu-item montserrat">Cilantro</div>
           <div className="menu-item montserrat">Sweet Onions</div>
           <div className="menu-item montserrat">Pineapple</div>
-          <div className="menu-item montserrat">Cucumber</div>
-          <div className="menu-item montserrat">Mango</div>
-          <div className="menu-item montserrat">Hijiki Seaweed</div>
-        </Col>
-
-        <Col xs={6}>
-          <div className="menu-title montserrat">TOPPINGS</div>
           <div className="menu-item montserrat">Tempura Flakes</div>
           <div className="menu-item montserrat">Crispy Onion</div>
           <div className="menu-item montserrat">Jalapeno</div>
-          <div className="menu-item montserrat">Wakame Seaweed</div>
+          <div className="menu-item montserrat">Edamame</div>
+        </Col>
+
+        <Col xs={6}>
+          <div className="menu-item montserrat">Cucumber Slices</div>
+          <div className="menu-item montserrat">Crabmeat</div>
           <div className="menu-item montserrat">Masago (Fish egg)</div>
-          <div className="menu-item montserrat">Kizami Nori</div>
+          <div className="menu-item montserrat">Avocado</div>
+          <div className="menu-item montserrat">Sweet Corn</div>
+          <div className="menu-item montserrat">Seaweed Salad</div>
           <div className="menu-item montserrat">Crispy Lotus Root</div>
         </Col>
 
-        <Col xs={6}>
-          <div className="menu-title montserrat">FREE ADD ONS</div>
-          <div className="menu-item montserrat">Cucumber Slices</div>
-          <div className="menu-item montserrat">Edamame</div>
-          <div className="menu-item montserrat">Sweet Corn</div>
-          <div className="menu-item montserrat">Seaweed Salad</div>
-        </Col>
-
-        <Col xs={6}>
-          <div className="menu-title montserrat">PREMIUM ADD ONS (+ $1)</div>
-          <div className="menu-item montserrat">Crabmeat</div>
-          <div className="menu-item montserrat">Black Tobiko</div>
-          <div className="menu-item montserrat">Red Tobiko</div>
-          <div className="menu-item montserrat">Avocado</div>
+        <Col xs={12}>
+          <div className="notations">ADDITIONAL ADD-ONS +$0.50</div>
         </Col>
 
         <Col xs={12}> 
@@ -101,39 +91,20 @@ const IceMenu = () => (
             <div className="menu-description montserrat">Thick soy sauce</div>
           </Container>
         </Col> 
+        
+        <Col xs={12}>
+          <div className="notations">Consuming raw or under cooked meat, fish, shellfish or fresh egg may increase your risk of food borne illness, especially if you have certain medical conditions</div>
+        </Col>
 
         <Col xs={12}> 
           <hr className="hr"></hr>
-          <div className="menu-subtitle text-center">SELF SERVED TOPPINGS ON SERVER STATION</div>
         </Col>
-
-        <Col xs={6}>
-          <div className="menu-description montserrat">Black Sesame</div>
-          <div className="menu-description montserrat">Furikake</div>
-        </Col>
-        <Col xs={6}>
-          <div className="menu-description montserrat">Sweet Ginger</div>
-          <div className="menu-description montserrat">Shichimi</div>
-          <div className="menu-description montserrat">Wasabi</div>
-        </Col>
-
         <Col xs={12}>
-          <div className="signature text-center">Signature Bowls</div>
+          <div className="signature text-center">Hawaiian Barbecue Bowl</div>
         </Col>
 
         <Col xs={12}> 
           <Container className="poke">
-            <div className="menu-title center Lobster">Classic Tuna</div>
-            <div className="menu-description montserrat">Ahi Tuna, green& sweet onions, cucumber, sesame seed, avocado, edamame, classic shoyu sauce and sushi rice</div>
-            <div className="menu-title center Lobster">Spicy Yuzu Salmon</div>
-            <div className="menu-description montserrat">Scottish salmon, green onions, cilantro, cucumber, mango, yuzu kosho sauce, kale salad & brown rice, avocado, jalapeno and sweet ginger</div>
-            <div className="menu-title center Lobster">Icy Blue</div>
-            <div className="menu-description montserrat">Ahi tuna, pepper tuna, green & sweet onion, cucumber, edamame, sriracha aioli sauce, sushi rice, avocado and seaweed salad</div>
-            <div className="menu-title center Lobster">Veggie Bowl</div>
-            <div className="menu-description montserrat">Sushi rice and organic local greens, organic tofu, edamame, cucumber, sweet corn, sweet chili, gochu sauce, avocado, seaweed salad</div>
-            <div className="menu-title center Lobster">Ahi Tuna Tower</div>
-            <div className="menu-description montserrat">Sushi rice, spicy tuna, crabmeat, avocado, red tobiko, black tobiko, masago, kizami nori, mango sauce, eel sauce, sweet chili sauce & spicy mayo </div>
-            <div className="menu-title center Lobster">Hawaiian Barbecue Bowl</div>
             <div className="menu-description montserrat">Your choice of Steam Rice, Brown Rice, Purple Rice or</div>
             <div className="menu-description montserrat">substitute to Fried Rice (+ $2)</div>
             <div className="menu-description montserrat">served with Steamed Asparagus, Sweet corn, Broccoli, Carrot drizzled with Hawaiian barbecue sauce</div>
@@ -152,10 +123,6 @@ const IceMenu = () => (
             </Row>
 
           </Container>
-        </Col>
-
-        <Col xs={12}>
-        <div className="notations">Consuming raw or under cooked meat, fish, shellfish or fresh egg may increase your risk of food borne illness, especially if you have certain medical conditions</div>
         </Col>
 
       </Row>

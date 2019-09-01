@@ -124,7 +124,7 @@ const IceMenu = () => (
           <div className="menu-item montserrat">Strawberry Sauce</div>
         </Col>
         <Col xs={12}>
-        <div className="notations">ADDITIONAL ADD-ONS +$0.50</div>
+          <div className="notations">ADDITIONAL ADD-ONS +$0.50</div>
         </Col>
 
       </Row>
