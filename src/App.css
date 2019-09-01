@@ -332,7 +332,37 @@
   background: rgba(225, 225, 225, 0.7);
 }
 
+/* IPAD PRO */
+@media (max-width: 1024px) {
+  .intro {
+    background-size: contain;
+    min-height: 680px; 
+  }
+  .menu-title {
+    font-size: 1.5rem;
+  }
+  .menu-subtitle {
+    font-size: 1.5rem;
+  }
+}
+/* IPAD */
+@media (max-width: 768px) {
+  .intro {
+    background-size: contain;
+    min-height: 510px; 
+  }
+  .menu-title {
+    font-size: 1.35rem;
+  }
+  .menu-subtitle {
+    font-size: 1.6rem;
+  }
+  .notations {
+    font-size: 1rem;
+  }
+}
 
+/* MOBILE */
 @media (max-width: 576px) {
   #header {
     padding: .5rem;
@@ -495,4 +525,47 @@
     padding-bottom: .25rem;
   }  
 }
+/* MOBILE */
+  /*  PIXEL 2XL, iPHONE 6/7/8 PLUS  */
+  @media (max-width: 414px) {
+    .intro {
+      background-size: contain;
+      min-height: 270px; 
+    }
+  }
+    /* MOBILE */
+  /* iPHONE 5/SE, iPHONE X */
+  @media (max-width: 375px) {
+    .intro {
+      background-size: contain;
+      min-height: 250px; 
+    }
+    .menu-title {
+      font-size: .85rem;
+    }  
+  }
+
+/* MOBILE */
+  /* GALAXY S5 */
+@media (max-width: 360px) {
+  .intro {
+    background-size: contain;
+    min-height: 240px; 
+  }
+  .menu-title {
+    font-size: .85rem;
+  }
+}
+  /* MOBILE */
+  /* iPHONE 5/SE */
+  @media (max-width: 320px) {
+    .intro {
+      background-size: contain;
+      min-height: 210px; 
+    }
+    .menu-title {
+      font-size: .75rem;
+    }  
+  }
+  
 
