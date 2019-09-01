@@ -366,7 +366,7 @@
   } */
   .intro {
     min-height: 360px; 
-    /* width: 100%; */
+    width: auto;
   }
   .jumbotron {
     padding: 1rem;
