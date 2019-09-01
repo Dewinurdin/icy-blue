@@ -22,7 +22,7 @@ const IceMenu = () => (
           <div className="menu-item montserrat">Brown Rice</div>
           <div className="menu-item montserrat">Organic Purple Rice</div>
           <div className="menu-item montserrat">Salad</div>
-          <div className="menu-item montserrat">salad/sushi rice</div>
+          <div className="menu-item montserrat">&#189; Salad &#189; Sushi Rice</div>
         </Col>
         <Col xs={6}>
           <div className="menu-title montserrat">PROTEIN</div>
@@ -76,7 +76,7 @@ const IceMenu = () => (
             <div className="menu-title center Lobster">Ponzu</div>
             <div className="menu-description montserrat">Citrus Soy Sauce</div>
             <div className="menu-title center Lobster">Spicy Ponzu</div>
-            <div className="menu-description montserrat">Ponzu Sauce with Jalapeno & Garlic</div>
+            <div className="menu-description montserrat">Ponzu Sauce with Jalapeno &amp; Garlic</div>
             <div className="menu-title center Lobster">Wasabi Aioli</div>
             <div className="menu-description montserrat">Sweet Creamy Wasabi Sauce</div>
             <div className="menu-title center Lobster">Sweet Chili Gochu</div>
@@ -91,7 +91,7 @@ const IceMenu = () => (
             <div className="menu-description montserrat">Thick soy sauce</div>
           </Container>
         </Col> 
-        
+
         <Col xs={12}>
           <div className="notations">Consuming raw or under cooked meat, fish, shellfish or fresh egg may increase your risk of food borne illness, especially if you have certain medical conditions</div>
         </Col>

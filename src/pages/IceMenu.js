@@ -20,43 +20,43 @@ const IceMenu = () => (
         <Col xs={12}>
           <Container className="ice-menu">
             <div className="menu-title center Lobster">Strawbella</div>
-            <div className="menu-description montserrat">Strawberry Base, Graham Cracker & Nutella</div>
+            <div className="menu-description montserrat">Strawberry Base, Graham Cracker &amp; Nutella</div>
             
             <div className="menu-title Lobster center">Green Giant</div>
-            <div className="menu-description montserrat">Green Tea Base, Lychee & Condensed Milk</div>
+            <div className="menu-description montserrat">Green Tea Base, Lychee &amp; Condensed Milk</div>
             
             <div className="menu-title Lobster center">Cookie Monster</div>
-            <div className="menu-description montserrat">Vanilla Base, Oreo Cookie & Chocolate Sauce</div>
+            <div className="menu-description montserrat">Vanilla Base, Oreo Cookie &amp; Chocolate Sauce</div>
             
             <div className="menu-title Lobster center">Monkey Business</div>
-            <div className="menu-description montserrat">Banana Base, Graham Cracker, Nutella & Chocolate Sauce</div>
+            <div className="menu-description montserrat">Banana Base, Graham Cracker, Nutella &amp; Chocolate Sauce</div>
             
             <div className="menu-title Lobster center">Cookie Dough</div>
-            <div className="menu-description montserrat">Vanilla Base, Cookie Dough & Caramel Sauce</div>
+            <div className="menu-description montserrat">Vanilla Base, Cookie Dough &amp; Caramel Sauce</div>
 
             <div className="menu-title Lobster center">Mucho Mango</div>
-            <div className="menu-description montserrat">Mango Base, Strawberry & Condensed Milk</div>
+            <div className="menu-description montserrat">Mango Base, Strawberry &amp; Condensed Milk</div>
 
             <div className="menu-title Lobster center">Mint To Be</div>
-            <div className="menu-description montserrat">Mint Base, Oreo Cookie & Chocolate Sauce</div>
+            <div className="menu-description montserrat">Mint Base, Oreo Cookie &amp; Chocolate Sauce</div>
 
             <div className="menu-title Lobster center">Shockers Brownie</div>
-            <div className="menu-description montserrat">Chocolate Milk Base, Brownie & Chocolate Sauce</div>
+            <div className="menu-description montserrat">Chocolate Milk Base, Brownie &amp; Chocolate Sauce</div>
 
             <div className="menu-title Lobster center">Pink Lady</div>
-            <div className="menu-description montserrat">Strawberry Base, Graham Crackers & Condensed Milk</div>
+            <div className="menu-description montserrat">Strawberry Base, Graham Crackers &amp; Condensed Milk</div>
 
             <div className="menu-title Lobster center">Whole Latte Love</div>
-            <div className="menu-description montserrat">Coffee Base, Biscoff Cookie & Caramel Sauce</div>
+            <div className="menu-description montserrat">Coffee Base, Biscoff Cookie &amp; Caramel Sauce</div>
 
             <div className="menu-title Lobster center">Jungle Love</div>
-            <div className="menu-description montserrat">Chocolate Base, Strawberry, Banana & Chocolate Sauce</div>
+            <div className="menu-description montserrat">Chocolate Base, Strawberry, Banana &amp; Chocolate Sauce</div>
 
             <div className="menu-title Lobster center">Wildcats</div>
-            <div className="menu-description montserrat">Banana Base, Blackberry, Strawberry & Chocolate Sauce</div>
+            <div className="menu-description montserrat">Banana Base, Blackberry, Strawberry &amp; Chocolate Sauce</div>
 
             <div className="menu-title Lobster center">Cocolicious</div>
-            <div className="menu-description montserrat">Coconut ice cream mixed with Pineapple top with Coconut flakes & Whipped Cream</div>
+            <div className="menu-description montserrat">Coconut ice cream mixed with Pineapple top with Coconut flakes &amp; Whipped Cream</div>
 
           </Container>
         </Col>
@@ -76,7 +76,7 @@ const IceMenu = () => (
           <div className="menu-item montserrat">Mint Oreo </div>
           <div className="menu-item montserrat">Kit Kat </div>
           <div className="menu-item montserrat">Chocolate Chips </div>
-          <div className="menu-item montserrat">M&M's </div>
+          <div className="menu-item montserrat">M&amp;M's </div>
           <div className="menu-item montserrat">Cookie Dough </div>
           <div className="menu-item montserrat">Crushed Peanuts </div>
           <div className="menu-item montserrat">Pecans</div>
