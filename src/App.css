@@ -42,18 +42,18 @@
   letter-spacing: .5px;
   transition: transform 500ms ease-in;
 }
-/* .active {
+.logo_active {
   width: 18rem;
   height: 5rem;
   transition: transform 500ms ease-in;
-} */
+}
 
 .intro {
   display: flex;
   background: url("./assets/varieties.jpg");
   /* PARALLAX */
   background-attachment: fixed; 
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 890px; 
@@ -359,14 +359,14 @@
     /* margin-right: auto; */
     /* margin-left: auto; */
   }
-  /* .active {
+  .logo_active {
     width: 10.5rem;
     height: 3rem;
     transition: .7s;
-  } */
+  }
   .intro {
-    min-height: 360px; 
-    width: auto;
+    background-size: contain;
+    min-height: 275px; 
   }
   .jumbotron {
     padding: 1rem;
