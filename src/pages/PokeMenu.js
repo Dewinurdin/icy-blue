@@ -16,7 +16,7 @@ const IceMenu = () => (
           <div className="menu-instructions montserrat center">Select 3 protein option (32oz) $13.50</div>
           <hr className="hr"></hr>
         </Col>
-        <Col xs={6}>
+        <Col xs={6} className="center">
           <div className="menu-title montserrat">BASE (choose up to 2)</div>
           <div className="menu-item montserrat">Sushi Rice</div>
           <div className="menu-item montserrat">Brown Rice</div>
@@ -24,7 +24,7 @@ const IceMenu = () => (
           <div className="menu-item montserrat">Salad</div>
           <div className="menu-item montserrat">&#189; Salad &#189; Sushi Rice</div>
         </Col>
-        <Col xs={6}>
+        <Col xs={6} className="center">
           <div className="menu-title montserrat">PROTEIN</div>
           <div className="menu-item montserrat">Ahi Tuna</div>
           <div className="menu-item montserrat">Scottish Salmon</div>
@@ -39,7 +39,7 @@ const IceMenu = () => (
           <div className="menu-title montserrat center py-3">CHOOSE FIVE TOPPING</div>
         </Col>
 
-        <Col xs={6}>
+        <Col xs={6} className="center">
           <div className="menu-item montserrat">Green Onion</div>
           <div className="menu-item montserrat">Cilantro</div>
           <div className="menu-item montserrat">Sweet Onions</div>
