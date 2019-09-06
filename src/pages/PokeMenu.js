@@ -50,14 +50,13 @@ const IceMenu = () => (
           <div className="menu-item montserrat">Edamame</div>
         </Col>
 
-        <Col xs={6}>
+        <Col xs={6} className="center" >
           <div className="menu-item montserrat">Cucumber Slices</div>
           <div className="menu-item montserrat">Crabmeat</div>
           <div className="menu-item montserrat">Masago (Fish egg)</div>
           <div className="menu-item montserrat">Avocado</div>
           <div className="menu-item montserrat">Sweet Corn</div>
           <div className="menu-item montserrat">Seaweed Salad</div>
-          <div className="menu-item montserrat">Crispy Lotus Root</div>
         </Col>
 
         <Col xs={12}>
