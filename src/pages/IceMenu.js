@@ -32,7 +32,7 @@ const IceMenu = () => (
             <div className="menu-description montserrat">Banana Base, Graham Cracker, Nutella &amp; Chocolate Sauce</div>
             
             <div className="menu-title Lobster center">Cookie Dough</div>
-            <div className="menu-description montserrat">Vanilla Base, Cookie Dough &amp; Caramel Sauce</div>
+            <div className="menu-description montserrat">Vanilla Base, Chocolate Chip &amp; Caramel Sauce</div>
 
             <div className="menu-title Lobster center">Mucho Mango</div>
             <div className="menu-description montserrat">Mango Base, Strawberry &amp; Condensed Milk</div>
@@ -77,7 +77,7 @@ const IceMenu = () => (
           <div className="menu-item montserrat">Kit Kat </div>
           <div className="menu-item montserrat">Chocolate Chips </div>
           <div className="menu-item montserrat">M&amp;M's </div>
-          <div className="menu-item montserrat">Cookie Dough </div>
+          <div className="menu-item montserrat">Chocolate Chip </div>
           <div className="menu-item montserrat">Crushed Peanuts </div>
           <div className="menu-item montserrat">Pecans</div>
         </Col>
