@@ -10,14 +10,16 @@ const Footer = (props) => (
       <Navbar id="footer" className="footer" fixed="bottom" fluid="true" >
         <Row>
           <Col xs={12} md={12}>
-            <span className="address">3141 E Broad Street</span>
-            <span className="divider"> | </span>
-            <span className="address">Suite. 205</span>
-            <span className="divider"> | </span>
-            <span className="address">Mansfield, TX 76063</span>
-            <span className="divider"> | </span>
+            <a href="https://goo.gl/maps/ALo45wVL4SCDRZLG8">
+              <span className="address">3141 E Broad Street</span>
+              <span className="divider"> | </span>
+              <span className="address">Suite. 205</span>
+              <span className="divider"> | </span>
+              <span className="address">Mansfield, TX 76063</span>
+              <span className="divider"> | </span>
+            </a>
             <br/>
-            <span className="phone">Contact 817-888-8888</span>
+              <span className="phone">Contact 817-888-8888</span>
             <br />
             <span className="copyright">&#169; Copyright {getYear} Icy Blue</span>
             <span className="divider"> | </span>

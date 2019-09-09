@@ -246,6 +246,10 @@
   font-family: "Quicksand";
 }
 
+a span {
+  color: white;
+}
+
 /* COMMON CSS */
   /* FONT FAMILY*/
 .pacifico {

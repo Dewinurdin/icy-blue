@@ -18,11 +18,11 @@ const IceMenu = () => (
         </Col>
         <Col xs={6} className="center">
           <div className="menu-title montserrat">BASE (choose up to 2)</div>
-          <div className="menu-item montserrat">Sushi Rice</div>
+          <div className="menu-item montserrat">White Rice</div>
           <div className="menu-item montserrat">Brown Rice</div>
           <div className="menu-item montserrat">Organic Purple Rice</div>
           <div className="menu-item montserrat">Salad</div>
-          <div className="menu-item montserrat">&#189; Salad &#189; Sushi Rice</div>
+          <div className="menu-item montserrat">&#189; Salad &#189; White Rice</div>
         </Col>
         <Col xs={6} className="center">
           <div className="menu-title montserrat">PROTEIN</div>
