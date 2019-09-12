@@ -47,7 +47,6 @@ const IceMenu = () => (
           <div className="menu-item montserrat">Tempura Flakes</div>
           <div className="menu-item montserrat">Crispy Onion</div>
           <div className="menu-item montserrat">Jalapeno</div>
-          <div className="menu-item montserrat">Edamame</div>
         </Col>
 
         <Col xs={6} className="center" >
@@ -57,6 +56,7 @@ const IceMenu = () => (
           <div className="menu-item montserrat">Avocado</div>
           <div className="menu-item montserrat">Sweet Corn</div>
           <div className="menu-item montserrat">Seaweed Salad</div>
+          <div className="menu-item montserrat">Edamame</div>
         </Col>
 
         <Col xs={12}>
@@ -74,12 +74,8 @@ const IceMenu = () => (
             <div className="menu-description montserrat">Sesame Soy Sauce with Ginger</div>
             <div className="menu-title center Lobster">Ponzu</div>
             <div className="menu-description montserrat">Citrus Soy Sauce</div>
-            <div className="menu-title center Lobster">Spicy Ponzu</div>
-            <div className="menu-description montserrat">Ponzu Sauce with Jalapeno &amp; Garlic</div>
             <div className="menu-title center Lobster">Wasabi Aioli</div>
             <div className="menu-description montserrat">Sweet Creamy Wasabi Sauce</div>
-            <div className="menu-title center Lobster">Sweet Chili Gochu</div>
-            <div className="menu-description montserrat">Sweet Chili </div>
             <div className="menu-title center Lobster">Sriracha Aioli</div>
             <div className="menu-description montserrat">Spicy Mayo</div>
             <div className="menu-title center Lobster">Wasabi Yuzu</div>

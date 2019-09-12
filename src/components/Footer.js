@@ -19,7 +19,7 @@ const Footer = (props) => (
               <span className="divider"> | </span>
             </a>
             <br/>
-              <span className="phone">Contact 817-888-8888</span>
+              <span className="phone">Contact: (682) 518-3100</span>
             <br />
             <span className="copyright">&#169; Copyright {getYear} Icy Blue</span>
             <span className="divider"> | </span>
