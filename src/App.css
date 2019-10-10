@@ -169,14 +169,15 @@
  background-repeat: no-repeat;
  /* background-size: cover; */
  background-size: contain;
+ width: 100%;
 }
 
 .poke_bowl {
  /* The image used */
- background-image: url("./assets/poke_bowl.jpg");
+ background: url("./assets/poke_bowl.jpg");
 }
 .rolled_ice { 
-  background-image: url("./assets/trio.jpg");
+  background: url("./assets/trio.jpg");
 }
 
 .title {

@@ -30,7 +30,7 @@ function App() {
           </p>
         </Container>
       </Jumbotron>
-      <Container>
+      <Container className="content">
         <IceMenu />
         <PokeMenu />
         <Map />
