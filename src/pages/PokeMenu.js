@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 const IceMenu = () => (
   <Container id="poke_bowl">
     <Container className="category">
-      <div className="title satisfy">Poke Bowl</div>
+      <h1 className="title satisfy">Poke Bowl</h1>
     </Container>
       <Row>
         <Col xs={12}>
@@ -17,46 +17,50 @@ const IceMenu = () => (
           <hr className="hr"></hr>
         </Col>
         <Col xs={6} className="center">
-          <div className="menu-title montserrat">BASE (choose up to 2)</div>
-          <div className="menu-item montserrat">White Rice</div>
-          <div className="menu-item montserrat">Brown Rice</div>
-          <div className="menu-item montserrat">Organic Purple Rice</div>
-          <div className="menu-item montserrat">Salad</div>
-          <div className="menu-item montserrat">&#189; Salad &#189; White Rice</div>
+          <div className="menu-title">BASE</div>
+          <div className="upto2">(choose up to 2)</div>
+
+          <div className="menu-description">White Rice</div>
+          <div className="menu-description">Brown Rice</div>
+          <div className="menu-description">Organic Purple Rice</div>
+          <div className="menu-description">Salad</div>
+          <div className="menu-description">&#189; Salad &#189; White Rice</div>
         </Col>
         <Col xs={6} className="center">
-          <div className="menu-title montserrat">PROTEIN</div>
-          <div className="menu-item montserrat">Ahi Tuna</div>
-          <div className="menu-item montserrat">Scottish Salmon</div>
-          <div className="menu-item montserrat">Pepper Tuna</div>
-          <div className="menu-item montserrat">Spicy Tuna</div>
-          <div className="menu-item montserrat">Creamy Scallops</div>
-          <div className="menu-item montserrat">Organic Tofu</div>
-          <div className="menu-item montserrat">Popcorn Shrimp</div>
+          <div className="menu-title">PROTEIN</div>
+          <div className="menu-description">Ahi Tuna</div>
+          <div className="menu-description">Scottish Salmon</div>
+          <div className="menu-description">Pepper Tuna</div>
+          <div className="menu-description">Spicy Tuna</div>
+          <div className="menu-description">Creamy Scallops</div>
+          <div className="menu-description">Organic Tofu</div>
+          <div className="menu-description">Popcorn Shrimp</div>
         </Col>
 
         <Col xs={12}>
-          <div className="menu-title montserrat center py-3">CHOOSE FIVE TOPPING</div>
+          <div className="menu-title center py-3">CHOOSE FIVE TOPPING</div>
         </Col>
 
-        <Col xs={6} className="center">
-          <div className="menu-item montserrat">Green Onion</div>
-          <div className="menu-item montserrat">Cilantro</div>
-          <div className="menu-item montserrat">Sweet Onions</div>
-          <div className="menu-item montserrat">Pineapple</div>
-          <div className="menu-item montserrat">Tempura Flakes</div>
-          <div className="menu-item montserrat">Crispy Onion</div>
-          <div className="menu-item montserrat">Jalapeno</div>
+        {/* <Col xs lg="2"></Col> */}
+
+        <Col xs={6}>
+          <div className="menu-description">Green Onion</div>
+          <div className="menu-description">Cilantro</div>
+          <div className="menu-description">Sweet Onions</div>
+          <div className="menu-description">Pineapple</div>
+          <div className="menu-description">Tempura Flakes</div>
+          <div className="menu-description">Crispy Onion</div>
+          <div className="menu-description">Jalapeno</div>
         </Col>
 
-        <Col xs={6} className="center" >
-          <div className="menu-item montserrat">Cucumber Slices</div>
-          <div className="menu-item montserrat">Crabmeat</div>
-          <div className="menu-item montserrat">Masago (Fish egg)</div>
-          <div className="menu-item montserrat">Avocado</div>
-          <div className="menu-item montserrat">Sweet Corn</div>
-          <div className="menu-item montserrat">Seaweed Salad</div>
-          <div className="menu-item montserrat">Edamame</div>
+        <Col xs={6}>
+          <div className="menu-description">Cucumber Slices</div>
+          <div className="menu-description">Crabmeat</div>
+          <div className="menu-description">Masago (Fish egg)</div>
+          <div className="menu-description">Avocado</div>
+          <div className="menu-description">Sweet Corn</div>
+          <div className="menu-description">Seaweed Salad</div>
+          <div className="menu-description">Edamame</div>
         </Col>
 
         <Col xs={12}>
@@ -70,20 +74,20 @@ const IceMenu = () => (
 
         <Col xs={12}> 
           <Container className="poke">
-            <div className="menu-title center Lobster">Shoyu</div>
-            <div className="menu-description montserrat">Sesame Soy Sauce with Ginger</div>
-            <div className="menu-title center Lobster">Ponzu</div>
-            <div className="menu-description montserrat">Citrus Soy Sauce</div>
-            <div className="menu-title center Lobster">Wasabi Aioli</div>
-            <div className="menu-description montserrat">Sweet Creamy Wasabi Sauce</div>
-            <div className="menu-title center Lobster">Sriracha Aioli</div>
-            <div className="menu-description montserrat">Spicy Mayo</div>
-            <div className="menu-title center Lobster">Wasabi Yuzu</div>
-            <div className="menu-description montserrat">Soy Sauce Citrus with Wasabi</div>
-            <div className="menu-title center Lobster">Mango Sauce</div>
-            <div className="menu-description montserrat">Sweet Creamy Mango Puree</div>
-            <div className="menu-title center Lobster">Eel Sauce</div>
-            <div className="menu-description montserrat">Thick soy sauce</div>
+            <div className="menu-title center">Shoyu</div>
+            <div className="menu-description">Sesame Soy Sauce with Ginger</div>
+            <div className="menu-title center">Ponzu</div>
+            <div className="menu-description">Citrus Soy Sauce</div>
+            <div className="menu-title center">Wasabi Aioli</div>
+            <div className="menu-description">Sweet Creamy Wasabi Sauce</div>
+            <div className="menu-title center">Sriracha Aioli</div>
+            <div className="menu-description">Spicy Mayo</div>
+            <div className="menu-title center">Wasabi Yuzu</div>
+            <div className="menu-description">Soy Sauce Citrus with Wasabi</div>
+            <div className="menu-title center">Mango Sauce</div>
+            <div className="menu-description">Sweet Creamy Mango Puree</div>
+            <div className="menu-title center">Eel Sauce</div>
+            <div className="menu-description">Thick soy sauce</div>
           </Container>
         </Col> 
 
@@ -95,26 +99,26 @@ const IceMenu = () => (
           <hr className="hr"></hr>
         </Col>
         <Col xs={12}>
-          <div className="signature text-center">Hawaiian Barbecue Bowl</div>
+          <h2 className="signature text-center">Hawaiian Barbecue Bowl</h2>
         </Col>
 
         <Col xs={12}> 
           <Container className="poke">
-            <div className="menu-description montserrat">Your choice of Steam Rice, Brown Rice, Purple Rice or</div>
-            <div className="menu-description montserrat">substitute to Fried Rice (+ $2)</div>
-            <div className="menu-description montserrat">served with Steamed Asparagus, Sweet corn, Broccoli, Carrot drizzled with Hawaiian barbecue sauce</div>
+            <div className="menu-description">Your choice of Steam Rice, Brown Rice, Purple Rice or</div>
+            <div className="menu-description">Substitute to Fried Rice (+ $2)</div>
+            <div className="menu-description">served with Steamed Asparagus, Sweet corn, Broccoli, Carrot drizzled with Hawaiian barbecue sauce</div>
             <div className="pick">PICK YOUR PROTEIN</div>
             <Row>
-              <Col className="menu-description montserrat" xs={6}>Chicken <span className="space">$9</span></Col>
-              <Col className="menu-description montserrat" xs={6}>Steak <span className="space">$12</span></Col>
-              <Col className="menu-description montserrat" xs={6}>Shrimp <span className="space">$10</span></Col>
-              <Col className="menu-description montserrat" xs={6}>Salmon <span className="space">$12</span></Col>
+              <Col className="menu-description" xs={6}>Chicken <span className="space">$9</span></Col>
+              <Col className="menu-description" xs={6}>Steak <span className="space">$12</span></Col>
+              <Col className="menu-description" xs={6}>Shrimp <span className="space">$10</span></Col>
+              <Col className="menu-description" xs={6}>Salmon <span className="space">$12</span></Col>
             </Row>
           
             <div className="pick">MAKE IT A COMBO</div>
             <Row>
-              <Col className="menu-description montserrat" xs={6}>Combination of 2 <span className="space">$16</span></Col>
-              <Col className="menu-description montserrat" xs={6}>Combination of 3 <span className="space">$20</span></Col>
+              <Col className="menu-description" xs={6}>Combination of 2 <span className="space">$16</span></Col>
+              <Col className="menu-description" xs={6}>Combination of 3 <span className="space">$20</span></Col>
             </Row>
           </Container>
         </Col>

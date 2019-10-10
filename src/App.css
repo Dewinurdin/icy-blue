@@ -9,7 +9,7 @@
 }
 
 .Site {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   padding: 0;
   margin: 0;  
 }
@@ -21,12 +21,14 @@
 
 #icecreamrolls, #poke_bowl {
   background-color: #E3F2FD;
+  display: table;
 }
 #header {
   /* background-color: #9fc6f3; */
   position: fixed;
   background-color: #fff;
   padding: 1rem;
+  z-index: 9999;
 }
 /* NAV-LINK  */
 .link, .nav-link {
@@ -73,14 +75,11 @@
   margin-right: auto;
   margin-left: auto;
 }
-.google_map {
-  height: 300px;
-}
 .embed-responsive {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 500px;
   width: 100%;
   bottom: 90px;
   margin-top: 90px;
@@ -88,7 +87,7 @@
   
 .footer {
   justify-content: center;    
-  height: 85px;
+  height: 89px;
   background-color: rgb(159, 198, 243);
   color: white;
   text-align: center;
@@ -115,8 +114,12 @@
   /* padding: .25rem; */
 }
 .divider {
-  margin-right: 10px;
-  margin-left: 10px;
+  border-bottom: 1px solid #ddd;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
 }
   
 /* BOOTSRAP */
@@ -130,7 +133,10 @@
 }
 .col-3, .col-4, .col-6, .col-12 {
   padding: 0;
-  position: static;
+}
+.card-col {
+  display: flex;
+
 }
 .ice-menu, .poke  {
   padding: 0rem;
@@ -138,11 +144,10 @@
   border-radius: 0rem;
   border: none;
   text-align: center;
+
 }
 .card-body {
-  padding-bottom: .2rem;
-  padding-top: .2rem;
-  
+  padding: .5rem;  
 }
 /* COMPONENTS */
 .category {
@@ -157,6 +162,8 @@
   letter-spacing: 3px;
   font-weight: 800;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Lobster';
 }
 .price {
@@ -174,15 +181,39 @@
   padding-bottom: 0.25rem;
 }
 
+.card-title {
+  color: #2196f3;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  /* font-weight: 550; */
+  line-height: 1.25;
+  padding-top: 1rem;
+  font-family: roboto condensed, sans-serif;
+  text-align: center;
+}
+
 .menu-title {
   color: #2196f3;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.25;
-  padding-top: .35rem;
-  padding-bottom: .35rem;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  font-family: roboto condensed, sans-serif;
+  text-align: center;
 }
+.upto2 {
+  color: #2196f3;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1.25;
+  padding-bottom: .5rem;
+  font-family: roboto condensed, sans-serif;
+  text-align: center;
+}
+
 .menu-subtitle {
   font-size: 2rem;
   /* letter-spacing: 1px; */
@@ -199,18 +230,38 @@
   font-weight: 700;
   text-align: center;
 }
+.descriptions {
+  padding-bottom: .5rem;
+  font-size: 1.05rem;
+  letter-spacing: .2px;
+  text-align: center;
+  font-family: roboto condensed, sans-serif;
+}
 
 .menu-description {
-  font-size: 1.25rem;
-  margin-bottom: 0.35rem;
-  padding-top: 0.1rem;  
+  padding-bottom: .5rem;
+  font-size: 1.2rem;
+  letter-spacing: .5px;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: roboto condensed, sans-serif;
 }
 .menu-item {
   font-size: 1.15rem;
   line-height: 1.8rem;
   padding-top: 0;
+}
+.card {
+  padding: .5rem;
+  margin: .5rem .5rem;
+  background-color: #f5f5f5;
+}
+.card:hover {
+  box-shadow: 0 0 3px 2px rgba(0, 140, 186, 0.5);
+  transition: 1s;
+}
+
+.card-img-top, .card-body {
+  background-color: #fff;
 }
 
 .signature {
@@ -228,7 +279,7 @@
 
 .notations {
   color: #C3596D;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   letter-spacing: .5px;
   font-weight: 800;
   text-align: center;
@@ -343,8 +394,17 @@ a span {
     background-size: contain;
     min-height: 680px; 
   }
+  .card:hover {
+    box-shadow: 0 0 3px 2px rgba(0, 140, 186, 0.5);
+    transition: 1s;
+  }
+  
   .menu-title {
     font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .menu-description {
+    font-size: 1.11rem;
   }
   .menu-subtitle {
     font-size: 1.5rem;
@@ -412,7 +472,19 @@ a span {
   .about {
     font-size: 1rem;
   }  
-    
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+  }
+
+  .descriptions {
+    padding-bottom: .5rem;
+    font-size: .95rem;
+    letter-spacing: .2px;
+    text-align: center;
+    font-family: roboto condensed, sans-serif;
+  }  
+  
   .section {
     padding-right: 0;
     padding-left: 0;
@@ -420,6 +492,12 @@ a span {
   .category {
     background-color: #2853F6;
     padding: .5rem;
+  }
+  .card {
+    /* height: 15rem; */
+  }
+  .card-img-top {
+    /* height: 9rem; */
   }
   .title {
     font-size: 1.2rem;
@@ -446,11 +524,20 @@ a span {
     padding-top: .75rem;
     padding-bottom: 0.25rem;
   }    
+  
   .menu-title {
     font-size: 1rem;
-    color: #2196f3;
-    font-family: 'Lobster';
-    letter-spacing: 0;
+    padding-top: 0.75rem;
+    padding-bottom: .5rem;
+    margin-bottom: 0;
+    letter-spacing: 0.25px;
+  }
+  .upto2 {
+    font-size: 1rem;
+    /* padding-top: 0.75rem; */
+    padding-bottom: .5rem;
+    margin-bottom: 0;
+    letter-spacing: 0.25px;
   }
   .menu-subtitle {
     font-size: 1.1rem;
@@ -458,7 +545,7 @@ a span {
     padding-bottom: .5rem;
   }  
   .menu-instructions {
-    font-size: .8rem;
+    font-size: .75rem;
     padding-bottom: 0.1rem;
     padding-top: 0rem;  
     text-align: center;    
@@ -466,8 +553,9 @@ a span {
   }  
   .menu-description {
     font-size: .75rem;
-    padding-top: 0;
+    padding: 0;
   }
+  
   .menu-item {
     font-size: .75rem;
     padding-top: 0;
@@ -503,11 +591,6 @@ a span {
     color: #fff;
     font-size: 8.9px;
   }
-  .divider {
-    margin-right: 1px;
-    margin-left: 1px;
-    font-size: 7px;
-  }
   .pick {
     font-size: .8rem;
     padding: .4rem;
@@ -537,6 +620,22 @@ a span {
       background-size: contain;
       min-height: 270px; 
     }
+    .menu-description {
+      font-size: .85rem;
+      padding: 2px;
+    }
+    .menu-title {
+      font-size: 1rem;
+      letter-spacing: .75px;
+    }  
+    .link, .nav-link {
+      font-size: .7rem;
+      font-weight: 800;
+      padding: 0.25rem;
+    }
+  
+
+  
   }
     /* MOBILE */
   /* iPHONE 5/SE, iPHONE X */
@@ -546,8 +645,16 @@ a span {
       min-height: 250px; 
     }
     .menu-title {
-      font-size: .85rem;
+      font-size: .9rem;
     }  
+    .upto2 {
+      font-size: .85rem;
+      /* padding-top: 0.75rem; */
+      padding-bottom: .5rem;
+      margin-bottom: 0;
+      letter-spacing: 0.25px;
+    }
+  
   }
 
 /* MOBILE */
@@ -558,8 +665,17 @@ a span {
     min-height: 240px; 
   }
   .menu-title {
-    font-size: .85rem;
+    font-size: .9rem;
+    padding-bottom: .3rem;
   }
+  .upto2 {
+    font-size: .85rem;
+    padding-top: 0rem;
+    padding-bottom: .5rem;
+    margin-bottom: 0;
+    letter-spacing: 0.25px;
+  }
+
 }
   /* MOBILE */
   /* iPHONE 5/SE */
