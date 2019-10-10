@@ -5,8 +5,14 @@ import Container from 'react-bootstrap/Container';
 
 const IceMenu = () => (
   <Container id="poke_bowl">
-    <Container className="category">
-      <h1 className="title satisfy">Poke Bowl</h1>
+    <Container className="category" >
+    <div className="poke_bowl">
+      <div className="centered title">Poke Bowl</div>
+    
+    </div>
+      {/* <img src={image} className="image-overlay" alt="Snow" style={{width: '100%'}}></img>
+      <div className="centered title">Poke Bowl</div> */}
+      
     </Container>
       <Row>
         <Col xs={12}>

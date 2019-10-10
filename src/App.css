@@ -26,7 +26,7 @@
 #header {
   /* background-color: #9fc6f3; */
   position: fixed;
-  background-color: #fff;
+  background-color: #fafafa;
   padding: 1rem;
   z-index: 9999;
 }
@@ -151,13 +151,36 @@
 }
 /* COMPONENTS */
 .category {
-  background-color: #2853F6;
+  /* background-color: #2853F6; */
   color: #fff; 
   padding: 1rem;
+  position: relative;
+  text-align: center;
+  padding: 0;
+}
+
+.poke_bowl, .rolled_ice {
+ /* Set a specific height */
+ min-height: 300px; 
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ /* background-size: cover; */
+ background-size: contain;
+}
+
+.poke_bowl {
+ /* The image used */
+ background-image: url("./assets/poke_bowl.jpg");
+}
+.rolled_ice { 
+  background-image: url("./assets/trio.jpg");
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #fff;
   letter-spacing: 3px;
   font-weight: 800;
@@ -330,6 +353,12 @@ a span {
   margin-left: auto;
   text-align: center;
 }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
   /* COLOR */
 .purple {
   color: #404393;
@@ -490,8 +519,13 @@ a span {
     padding-left: 0;
   }
   .category {
-    background-color: #2853F6;
+    /* background-color: #2853F6; */
     padding: .5rem;
+    position: relative;
+    text-align: center;
+    /* color: white; */
+    padding: 0;
+  
   }
   .card {
     /* height: 15rem; */

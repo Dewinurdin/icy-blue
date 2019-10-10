@@ -19,10 +19,20 @@ import Cocolicious from '../assets/cocolocious.png';
 
 const IceMenu = () => (
   <Container id="icecreamrolls">
-    <Container className="category">
+    {/* <Container className="category">
       <h1 className="title satisfy">Rolled  Ice Cream</h1>
-      <div className="price satisfy">$6.99</div>
+      <div className="price satisfy"></div>
+    </Container> */}
+    <Container className="category" >
+    <div className="rolled_ice">
+      <div className="centered">
+        <div className="title">Rolled  Ice Cream</div>
+        <div className="title">$6.99</div>
+      </div>
+    </div>
+      
     </Container>
+
       <Row>
         <Col xs={12}>
             <div className="step helvetica center">STEP 1</div>
