@@ -2,18 +2,18 @@ import React from 'react'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import poke_bowl from '../assets/poke_bowl.jpg';
+
 
 const IceMenu = () => (
   <Container id="poke_bowl">
-    <Container className="category" >
-    <div className="poke_bowl">
-      <div className="centered title">Poke Bowl</div>
-    
-    </div>
-      {/* <img src={image} className="image-overlay" alt="Snow" style={{width: '100%'}}></img>
-      <div className="centered title">Poke Bowl</div> */}
-      
+      <Container className="category" >
+      <img src={poke_bowl} className="poke_bowl" alt="Poke Bowl Section"/>
+      <div className="centered">
+        <div className="title">Poke Bowl</div>
+      </div>
     </Container>
+
       <Row>
         <Col xs={12}>
           <div className="step helvetica center">REGULAR</div>

@@ -16,21 +16,16 @@ import Whole_Latte_Love from '../assets/whole_latte_love.png';
 import Jungle_Love from '../assets/jungle_love.png';
 import Wildcats from '../assets/wildcats.png';
 import Cocolicious from '../assets/cocolocious.png';
+import trio from '../assets/trio.jpg';
 
 const IceMenu = () => (
   <Container id="icecreamrolls">
-    {/* <Container className="category">
-      <h1 className="title satisfy">Rolled  Ice Cream</h1>
-      <div className="price satisfy"></div>
-    </Container> */}
     <Container className="category" >
-    <div className="rolled_ice">
+      <img src={trio} className="rolled_ice" alt="Rolled Ice Section"/>
       <div className="centered">
         <div className="title">Rolled  Ice Cream</div>
         <div className="title">$6.99</div>
       </div>
-    </div>
-      
     </Container>
 
       <Row>

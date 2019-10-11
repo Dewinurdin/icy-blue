@@ -61,6 +61,27 @@
   min-height: 890px; 
   width: 100%;
 } 
+.category {
+  color: #fff; 
+  position: relative;
+  /* padding: 0; */
+  /* height:400px; */
+}
+
+.rolled_ice, .poke_bowl {
+  max-height: 300px;
+  width: 100%;
+  object-fit: none;
+ }
+
+ .poke_bowl {
+  background: url("./assets/poke_bowl.jpg");
+ }
+ .rolled_ice { 
+   background: url("./assets/trio.jpg");
+ }
+ 
+ 
 .jumbotron {
   margin-bottom: 0;
   background-color: white;
@@ -101,6 +122,7 @@
   margin-top: 1rem;
   padding: .25rem;
   margin-bottom: 1rem;
+  text-decoration: none;
 }
 .phone {
   padding-bottom: .5rem;
@@ -150,35 +172,6 @@
   padding: .5rem;  
 }
 /* COMPONENTS */
-.category {
-  /* background-color: #2853F6; */
-  color: #fff; 
-  padding: 1rem;
-  position: relative;
-  text-align: center;
-  padding: 0;
-}
-
-.poke_bowl, .rolled_ice {
- /* Set a specific height */
- min-height: 300px; 
-
- /* Create the parallax scrolling effect */
- background-attachment: fixed;
- background-position: center;
- background-repeat: no-repeat;
- /* background-size: cover; */
- background-size: contain;
- width: 100%;
-}
-
-.poke_bowl {
- /* The image used */
- background: url("./assets/poke_bowl.jpg");
-}
-.rolled_ice { 
-  background: url("./assets/trio.jpg");
-}
 
 .title {
   font-size: 3rem;
@@ -439,6 +432,13 @@ a span {
   .menu-subtitle {
     font-size: 1.5rem;
   }
+  .poke_bowl, .rolled_ice {
+    max-height: 200px; 
+    object-fit: cover;
+  }   
+  .title {
+    font-size: 2.25rem;
+  }
 }
 /* IPAD */
 @media (max-width: 768px) {
@@ -455,6 +455,14 @@ a span {
   .notations {
     font-size: 1rem;
   }
+  .poke_bowl, .rolled_ice {
+    max-height: 200px; 
+    object-fit: cover;
+  }   
+  .title {
+    font-size: 2.25rem;
+  }
+
 }
 
 /* MOBILE */
@@ -526,8 +534,13 @@ a span {
     text-align: center;
     /* color: white; */
     padding: 0;
-  
   }
+  
+  .poke_bowl, .rolled_ice {
+    max-height: 150px;
+    width: 100%;
+    object-fit: cover;
+  }   
   .card {
     /* height: 15rem; */
   }
@@ -655,6 +668,11 @@ a span {
       background-size: contain;
       min-height: 270px; 
     }
+    .poke_bowl, .rolled_ice {
+      min-height: 150px; 
+      object-fit: cover;
+    }   
+  
     .menu-description {
       font-size: .85rem;
       padding: 2px;
