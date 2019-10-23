@@ -39,7 +39,8 @@ const IceMenu = () => (
           <div className="menu-description">Pepper Tuna</div>
           <div className="menu-description">Spicy Tuna</div>
           <div className="menu-description">Creamy Scallops</div>
-          <div className="menu-description">Organic Tofu</div>
+          <div className="menu-description">Spicy Salmon</div>
+          <div className="menu-description">Hula Shrimp</div>
           <div className="menu-description">Popcorn Shrimp</div>
         </Col>
 
@@ -88,7 +89,6 @@ const IceMenu = () => (
             <div className="menu-description">Sweet Creamy Wasabi Sauce</div>
             <div className="menu-title center">Sriracha Aioli</div>
             <div className="menu-description">Spicy Mayo</div>
-            <div className="menu-title center">Wasabi Yuzu</div>
             <div className="menu-description">Soy Sauce Citrus with Wasabi</div>
             <div className="menu-title center">Mango Sauce</div>
             <div className="menu-description">Sweet Creamy Mango Puree</div>
@@ -112,7 +112,7 @@ const IceMenu = () => (
           <Container className="poke">
             <div className="menu-description">Your choice of Steam Rice, Brown Rice, Purple Rice or</div>
             <div className="menu-description">Substitute to Fried Rice (+ $2)</div>
-            <div className="menu-description">served with Steamed Asparagus, Sweet corn, Broccoli, Carrot drizzled with Hawaiian barbecue sauce</div>
+            <div className="menu-description">served with Grilled Asparagus, Sweet corn, Broccoli, Carrot drizzled with Hawaiian barbecue sauce</div>
             <div className="pick">PICK YOUR PROTEIN</div>
             <Row>
               <Col className="menu-description" xs={6}>Chicken <span className="space">$9</span></Col>

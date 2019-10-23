@@ -24,7 +24,7 @@ const IceMenu = () => (
       <img src={trio} className="rolled_ice" alt="Rolled Ice Section"/>
       <div className="centered">
         <div className="title">Rolled  Ice Cream</div>
-        <div className="title">$6.99</div>
+        <div className="title">$5.99</div>
       </div>
     </Container>
 
