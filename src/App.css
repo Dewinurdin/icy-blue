@@ -96,7 +96,7 @@
   margin-right: auto;
   margin-left: auto;
 }
-.embed-responsive {
+/* .embed-responsive {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,7 @@
   width: 100%;
   bottom: 90px;
   margin-top: 90px;
-}
+} */
   
 .footer {
   justify-content: center;    
@@ -325,13 +325,14 @@ a span {
 }
 /* GOOGLE MAP */
 #map {
-  bottom: 100px;
-  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  margin-top: 70px;
+  bottom: 70px;
 }
-/* #map {
-  bottom: 99px;
-  height: 255px;
-}   */
 
 
 /* COMMON CSS */
@@ -458,6 +459,15 @@ a span {
   .size {
     font-size: 1.6rem;
   }
+  #map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    margin-top: 110px;
+    bottom: 120px;
+  }  
   
 }
 /* IPAD */
@@ -485,8 +495,15 @@ a span {
   .size {
     font-size: 1.6rem;
   }
-  
-
+  #map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin-top: 110px;
+    bottom: 120px;
+  }  
 }
 
 /* MOBILE */
@@ -676,10 +693,10 @@ a span {
   }
   /* GOOGLE MAP */
   #map {
-    bottom: 99px;
-    height: 255px;
+    height: 350px;
+    margin-top: 60px;
+    bottom: 70px;
   }  
-  
   /* BOOTSTRAP */
   .navbar {
     padding: 0;
@@ -713,10 +730,8 @@ a span {
       font-weight: 800;
       padding: 0.25rem;
     }
-  
-
-  
   }
+
     /* MOBILE */
   /* iPHONE 5/SE, iPHONE X */
   @media (max-width: 375px) {
@@ -734,7 +749,11 @@ a span {
       margin-bottom: 0;
       letter-spacing: 0.25px;
     }
-  
+    #map {
+      height: 350px;
+      margin-top: 70px;
+      bottom: 70px;
+    }   
   }
 
 /* MOBILE */
