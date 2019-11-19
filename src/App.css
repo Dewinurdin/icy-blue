@@ -108,7 +108,7 @@
   
 .footer {
   justify-content: center;    
-  height: 89px;
+  height: auto;
   background-color: rgb(159, 198, 243);
   color: white;
   text-align: center;
@@ -173,8 +173,7 @@
 }
 /* COMPONENTS */
 
-.title {
-  font-size: 3rem;
+.title, .size {
   color: #fff;
   letter-spacing: 3px;
   font-weight: 800;
@@ -182,6 +181,12 @@
   margin-left: auto;
   margin-right: auto;
   font-family: 'Lobster';
+}
+.title {
+  font-size: 3rem;
+}
+.size {
+  font-size: 2rem;
 }
 .price {
   font-size: 2.2rem;
@@ -317,6 +322,16 @@
 a span {
   color: white;
 }
+/* GOOGLE MAP */
+#map {
+  bottom: 100px;
+  height: 500px;
+}
+/* #map {
+  bottom: 99px;
+  height: 255px;
+}   */
+
 
 /* COMMON CSS */
   /* FONT FAMILY*/
@@ -439,6 +454,10 @@ a span {
   .title {
     font-size: 2.25rem;
   }
+  .size {
+    font-size: 1.6rem;
+  }
+  
 }
 /* IPAD */
 @media (max-width: 768px) {
@@ -462,6 +481,10 @@ a span {
   .title {
     font-size: 2.25rem;
   }
+  .size {
+    font-size: 1.6rem;
+  }
+  
 
 }
 
@@ -552,6 +575,10 @@ a span {
     font-weight: 900;
     padding-bottom: 0;
   }
+  .size {
+    font-size: .9rem;
+  }
+  
   .price {
     font-size: 1rem;
     font-weight: 800;
@@ -647,11 +674,10 @@ a span {
     margin-left: 3px;
   }
   /* GOOGLE MAP */
-  .embed-responsive {
-    height: 229px;
-    bottom: 0px;
-    margin-top: 0px;
-  }
+  #map {
+    bottom: 99px;
+    height: 255px;
+  }  
   
   /* BOOTSTRAP */
   .navbar {
